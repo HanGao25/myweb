@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-09-23T00:45:42.790095+00:00",
+  "fetchedAt": "2026-09-23T05:48:53.525295+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -41,18 +41,18 @@
   "unmappedAirspacePrograms": 0,
   "airports": [
     {
-      "code": "DCA",
-      "name": "Ronald Reagan Washington National",
+      "code": "LGA",
+      "name": "La Guardia",
       "events": [
         {
-          "type": "Ground stop",
-          "reason": "other",
-          "start": "2026-09-22T23:45:00Z",
-          "end": "2026-09-23T01:00:00Z",
+          "type": "Airport closure",
+          "reason": "!LGA 09/324 LGA AD AP CLSD EXC HEL 30MIN \rPPR 718-533-3700 2609230435-2609231000",
+          "start": "2026-09-23T04:35:00Z",
+          "end": "2026-09-23T10:00:00Z",
           "averageDelayMinutes": null,
           "maximumDelayMinutes": null,
-          "updatedAt": "2026-09-22T23:58:05Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=1&adv_date=09222026&facId=DCA&title=ATCSCC ADVZY 001 DCA/ZDC 09/22/2026 CDM GROUND STOP&titleDate=09/22/2026"
+          "updatedAt": "2026-09-23T04:39:36Z",
+          "advisoryUrl": null
         }
       ]
     }
