@@ -14,12 +14,33 @@ let config = null;
 let snapshot = null;
 let refreshFailed = false;
 const staleAfterMs = 45 * 60 * 1000;
+let airportTimeZones = {};
 
 function utc(value) {
     const date = new Date(value);
     return Number.isFinite(date.getTime())
         ? date.toISOString().replace('T', ' ').replace(/\.\d{3}Z$/, ' UTC')
         : 'Unavailable';
+}
+
+function airportLocalTime(value, airportCode) {
+    const date = new Date(value);
+    if (!Number.isFinite(date.getTime())) return 'Unavailable';
+    const timeZone = airportTimeZones[airportCode];
+    if (!timeZone) return `${utc(value)} (airport time zone unavailable)`;
+    try {
+        return new Intl.DateTimeFormat(undefined, {
+            timeZone,
+            month: 'short',
+            day: 'numeric',
+            year: 'numeric',
+            hour: 'numeric',
+            minute: '2-digit',
+            timeZoneName: 'short'
+        }).format(date);
+    } catch (_) {
+        return `${utc(value)} (airport time zone unavailable)`;
+    }
 }
 
 function line(parent, text, tag = 'p') {
@@ -60,7 +81,7 @@ function renderStatus() {
             block.className = 'airport-event';
             line(block, event.type, 'h3');
             line(block, event.reason);
-            line(block, `${utc(event.start)} — ${utc(event.end)}`);
+            line(block, `${airportLocalTime(event.start, airport.code)} — ${airportLocalTime(event.end, airport.code)}`);
             const delays = [];
             if (Number.isFinite(event.averageDelayMinutes)) delays.push(`Average delay: ${event.averageDelayMinutes} min`);
             if (Number.isFinite(event.maximumDelayMinutes)) delays.push(`Maximum delay: ${event.maximumDelayMinutes} min`);
@@ -109,12 +130,14 @@ async function loadConfig() {
     const response = await fetch(configUrl, { cache: 'no-store' });
     if (!response.ok) throw new Error('Airport configuration unavailable');
     const data = await response.json();
-    if (!data || !Array.isArray(data.airports) || !Array.isArray(data.excluded_closure_patterns)) {
+    if (!data || !Array.isArray(data.airports) || !Array.isArray(data.excluded_closure_patterns)
+        || !data.airport_time_zones || typeof data.airport_time_zones !== 'object') {
         throw new Error('Invalid airport configuration');
     }
     config = {
         airports: data.airports
     };
+    airportTimeZones = data.airport_time_zones;
     statusElements.list.textContent = `Monitored airports: ${config.airports.join(', ')}`;
 }
 

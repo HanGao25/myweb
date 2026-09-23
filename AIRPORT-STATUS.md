@@ -55,12 +55,17 @@ The page's **Reload saved status** button re-downloads the published JSON; it
 does not contact ATCSCC. New visitors automatically receive the latest version
 that has actually been published to the university site.
 
+Event start and end times are displayed in the affected airport's local time
+zone. IANA time-zone IDs are maintained in `airport_time_zones` in
+`data/airport-status-config.json`; the browser applies daylight-saving changes.
+The snapshot retrieval time remains labeled UTC.
+
 ## Filtering and limitations
 
-`data/airport-status-config.json` contains the displayed airport list and the
-updater's airport filter and closure exclusion patterns. This is a selected
-list, not an official FAA size classification. The page includes only airports
-with qualifying events:
+`data/airport-status-config.json` contains the displayed airport list, airport
+time zones, and the updater's airport filter and closure exclusion patterns.
+This is a selected list, not an official FAA size classification. The page
+includes only airports with qualifying events:
 
 - Active ground stops and ground delay programs.
 - Active airport closures, except closures limited to GA/transient GA.

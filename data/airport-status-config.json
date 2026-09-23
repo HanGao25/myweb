@@ -1,5 +1,36 @@
 {
   "airports": ["ATL", "BOS", "CLT", "DCA", "DEN", "DFW", "DTW", "EWR", "HNL", "HOU", "IAD", "IAH", "JFK", "LAS", "LAX", "LGA", "MCO", "MIA", "MSP", "ORD", "PHL", "PHX", "RDU", "SEA", "SFO", "YVR", "YYZ", "YYC", "YUL"],
+  "airport_time_zones": {
+    "ATL": "America/New_York",
+    "BOS": "America/New_York",
+    "CLT": "America/New_York",
+    "DCA": "America/New_York",
+    "DEN": "America/Denver",
+    "DFW": "America/Chicago",
+    "DTW": "America/Detroit",
+    "EWR": "America/New_York",
+    "HNL": "Pacific/Honolulu",
+    "HOU": "America/Chicago",
+    "IAD": "America/New_York",
+    "IAH": "America/Chicago",
+    "JFK": "America/New_York",
+    "LAS": "America/Los_Angeles",
+    "LAX": "America/Los_Angeles",
+    "LGA": "America/New_York",
+    "MCO": "America/New_York",
+    "MIA": "America/New_York",
+    "MSP": "America/Chicago",
+    "ORD": "America/Chicago",
+    "PHL": "America/New_York",
+    "PHX": "America/Phoenix",
+    "RDU": "America/New_York",
+    "SEA": "America/Los_Angeles",
+    "SFO": "America/Los_Angeles",
+    "YVR": "America/Vancouver",
+    "YYZ": "America/Toronto",
+    "YYC": "America/Edmonton",
+    "YUL": "America/Toronto"
+  },
   "excluded_closure_patterns": [
     "\\b(?:CLSD|CLOSED)\\s+TO\\s+(?:NON[ -]?(?:SKED|SCHEDULED)\\s+)?(?:TRANSIENT\\s+)?(?:GA|GENERAL AVIATION)\\b"
   ]
