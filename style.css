@@ -1,0 +1,86 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 40px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 6px;
+    background-color: #2457c5;
+    color: white;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #1b4194;
+}
+
+.button:focus-visible {
+    outline: 3px solid #2457c5;
+    outline-offset: 3px;
+}
+
+/* Sichuan mahjong practice */
+.mahjong-page { background: #f3f5ef; color: #203b32; padding: 32px 20px; }
+.game-shell { max-width: 920px; margin: auto; }
+.home-link { color: #47665a; text-underline-offset: 4px; }
+.game-shell header { margin: 40px 0 28px; }
+.eyebrow { color: #567367; font-size: 13px; letter-spacing: 2px; }
+.game-shell h1 { font-size: clamp(28px, 5vw, 42px); margin: 12px 0; }
+.game-shell p { line-height: 1.7; }
+.game-meta, .panel-heading { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
+.game-meta { margin-bottom: 14px; font-size: 14px; }
+.hand-panel { background: #174e40; color: #fff; border-radius: 16px; padding: 24px; box-shadow: inset 0 0 0 5px #ffffff0b; }
+.game-shell h2 { font-size: 18px; margin: 0; }
+#missing-suit { font-size: 14px; color: #d0e6d8; }
+.hand { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 24px; }
+.tile { box-sizing: border-box; display: inline-flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; width: 52px; min-height: 72px; border: 1px solid #d6d8cb; border-bottom: 5px solid #c6cfb9; border-radius: 7px; background: #fffdf3; font: inherit; font-weight: 700; line-height: 1.1; flex-shrink: 0; }
+.tile-number { font-size: 26px; }
+.suit-0 { color: #ad3732; }.suit-1 { color: #285a9c; }.suit-2 { color: #26704a; }
+.answer-panel { background: white; padding: 24px; margin-top: 20px; border: 1px solid #dce3d7; border-radius: 16px; }
+#selection-help { font-size: 14px; color: #607469; }
+.choice-row { display: grid; grid-template-columns: repeat(9, minmax(0, 1fr)); gap: 8px; max-width: 620px; margin: 12px 0; }
+.choice-row .tile { width: 100%; cursor: pointer; }
+.choice-row .tile:disabled { opacity: .3; cursor: default; }
+.choice-row .tile[aria-pressed="true"] { background: #dbe8ff; border-color: #447ad2; box-shadow: 0 0 0 2px #447ad2; }
+.choice-row .tile.answer-correct { opacity: 1; background: #dcf2df; border-color: #328148; box-shadow: 0 0 0 2px #328148; }
+.choice-row .tile.answer-wrong { opacity: 1; background: #ffe3de; border-color: #b84132; box-shadow: 0 0 0 2px #b84132; }
+.game-actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 24px; }
+.game-actions button { font: inherit; cursor: pointer; border: 1px solid transparent; }
+.game-actions .button { background: #205e4c; }
+.secondary { background: #f0f3ee; color: #294d3e; border-radius: 6px; padding: 10px 20px; }
+.game-actions button:disabled { opacity: .45; cursor: default; }
+.game-shell button:focus-visible, .game-shell summary:focus-visible { outline: 3px solid #d38a15; outline-offset: 4px; }
+#feedback:not(:empty) { border-top: 1px solid #dce3d7; margin-top: 22px; padding-top: 14px; }
+#feedback p { margin: 5px 0; }
+.rules { margin-top: 24px; color: #53675c; font-size: 14px; }
+.rules summary { cursor: pointer; padding: 8px 0; }
+@media (max-width: 540px) {
+    .mahjong-page { padding: 20px 12px; }
+    .hand-panel, .answer-panel { padding: 18px 12px; }
+    .hand { gap: 4px; }
+    .hand .tile { width: 38px; min-height: 58px; }
+    .choice-row { gap: 5px; }
+    .choice-row .tile { min-height: 58px; font-size: 13px; }
+    .tile-number { font-size: 22px; }
+    .game-actions button { padding: 10px 14px; }
+}
+
+.game-nav { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+.language-picker { display: flex; align-items: center; gap: 10px; font-size: 13px; }
+.language-picker select { font: inherit; color: #203b32; background: white; border: 1px solid #bccabd; padding: 8px; border-radius: 6px; }
+.language-picker select:focus-visible { outline: 3px solid #d38a15; outline-offset: 3px; }
+.tile { padding: 3px; }
+.tile svg { display: block; width: 100%; height: 62px; pointer-events: none; }
+.suit-label { font-size: 13px; font-weight: 600; color: #607469; margin: 16px 0 4px; }
+.choice-row { margin-top: 4px; }
+@media (max-width: 540px) {
+    .tile svg { height: 48px; }
+    .choice-row .tile { padding: 1px; }
+}
+
+.airport-event + .airport-event { border-top: 1px solid #dce3d7; margin-top: 20px; padding-top: 8px; }
+.airport-event h3 { font-size: 16px; }
+#status-message:not(:empty) { color: #824707; background: #fff1d7; border-radius: 8px; padding: 12px; }

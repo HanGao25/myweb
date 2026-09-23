@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airport Status | Han Gao</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="airport-status.js" defer></script>
+</head>
+<body class="mahjong-page">
+    <main class="game-shell">
+        <nav class="game-nav"><a class="home-link" href="index.html">← Back to home</a><a class="home-link" href="https://nasstatus.faa.gov">Full FAA ATCSCC status ↗</a></nav>
+        <header><p class="eyebrow">FAA ATCSCC · MAJOR AIRPORTS</p><h1>Active airport programs</h1><p>Ground stops, ground delay programs, airport closures, and airport-linked airspace flow programs.</p></header>
+        <div class="status-actions"><button class="button" id="refresh-airport-status" type="button">Reload saved status</button><span id="refresh-status" role="status" aria-live="polite">Showing the most recently published snapshot.</span></div>
+        <p id="status-updated">Loading latest snapshot…</p>
+        <p id="status-message" role="status" aria-live="polite"></p>
+        <div id="airport-events"></div>
+        <details class="rules"><summary>Coverage and airport list</summary>
+            <p id="status-coverage">Routine delays, general aviation restrictions, and airports without qualifying events are hidden. This is not a complete list of CDM initiatives.</p>
+            <p id="airport-list"></p>
+            <p>This page loads the saved snapshot when opened. The button reloads that file; its freshness depends on the scheduled updater and site publishing. Times are UTC. An unlisted airport does not necessarily have no delays.</p>
+        </details>
+        <noscript>Enable JavaScript to view the status snapshot.</noscript>
+    </main>
+</body>
+</html>

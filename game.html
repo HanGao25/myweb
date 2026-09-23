@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>四川麻将 · 听牌练习 | Han Gao</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body class="mahjong-page">
+    <main class="game-shell">
+        <nav class="game-nav">
+            <a class="home-link" href="games.html" data-i18n="home">← 返回游戏列表</a>
+            <label class="language-picker">中文 / English
+                <select id="language" aria-label="Language / 语言">
+                    <option value="zh">中文</option>
+                    <option value="en">English</option>
+                </select>
+            </label>
+        </nav>
+        <header>
+            <p class="eyebrow" data-i18n="eyebrow">四川麻将 · 单人练习</p>
+            <h1 data-i18n="heading">这手牌，胡什么？</h1>
+            <p data-i18n="intro">手牌已经下叫。选出所有可以胡的牌，看看你有没有找全。</p>
+        </header>
+        <div class="game-meta"><span id="round"></span><span id="score"></span></div>
+        <section class="hand-panel" aria-labelledby="hand-title">
+            <div class="panel-heading"><h2 id="hand-title" data-i18n="handTitle">你的手牌 · 13 张</h2><span id="missing-suit"></span></div>
+            <div id="hand" class="hand" aria-label="手牌"></div>
+        </section>
+        <section class="answer-panel" aria-labelledby="answer-title">
+            <h2 id="answer-title" data-i18n="answerTitle">哪些牌可以胡？</h2>
+            <p id="selection-help" data-i18n="help">点击选牌，再次点击取消。可以多选。</p>
+            <div id="choices" aria-describedby="selection-help"></div>
+            <div class="game-actions">
+                <button id="check" data-i18n="check" class="button" type="button">检查答案</button>
+                <button id="reveal" data-i18n="reveal" class="secondary" type="button">查看答案</button>
+                <button id="next" data-i18n="next" class="secondary" type="button">换一题 →</button>
+            </div>
+            <div id="feedback" role="status" aria-live="polite"></div>
+        </section>
+        <details class="rules">
+            <summary data-i18n="rulesTitle">本练习的规则</summary>
+            <p data-i18n="rules1">只用万、筒、条，每种牌最多 4 张。每题为未碰、未杠的 13 张暗手牌，并已打完定缺花色。胡牌为「四组顺子或刻子 + 一对将」，或七对（四张相同牌可以算两对）。没有癞子，不计算番数。</p>
+            <p data-i18n="rules2">只判断牌型，不考虑其他玩家或牌河中的牌。手里已有 4 张的牌不能再摸入；定缺花色不能胡。检查或查看答案后，本题结束；首次检查全对才计为答对。</p>
+        </details>
+        <noscript>请启用 JavaScript 来生成手牌并开始练习。 Enable JavaScript to play.</noscript>
+    </main>
+</body>
+</html>

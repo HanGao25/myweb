@@ -1,0 +1,6 @@
+{
+  "airports": ["ATL", "BOS", "CLT", "DCA", "DEN", "DFW", "DTW", "EWR", "HNL", "HOU", "IAD", "IAH", "JFK", "LAS", "LAX", "LGA", "MCO", "MIA", "MSP", "ORD", "PHL", "PHX", "RDU", "SEA", "SFO", "YVR", "YYZ", "YYC", "YUL"],
+  "excluded_closure_patterns": [
+    "\\b(?:CLSD|CLOSED)\\s+TO\\s+(?:NON[ -]?(?:SKED|SCHEDULED)\\s+)?(?:TRANSIENT\\s+)?(?:GA|GENERAL AVIATION)\\b"
+  ]
+}
