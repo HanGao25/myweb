@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-09-24T19:57:04.481502+00:00",
+  "fetchedAt": "2026-09-24T23:09:30.479417+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -53,6 +53,22 @@
           "maximumDelayMinutes": 318,
           "updatedAt": "2026-09-24T17:55:21Z",
           "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=68&adv_date=09242026&facId=BOS&title=ATCSCC ADVZY 068 BOS/ZBW 09/24/2026 CDM GROUND DELAY PROGRAM&titleDate=09/24/2026"
+        }
+      ]
+    },
+    {
+      "code": "EWR",
+      "name": "Newark International",
+      "events": [
+        {
+          "type": "Ground delay program",
+          "reason": "airport volume",
+          "start": "2026-09-24T20:50:00Z",
+          "end": "2026-09-25T03:59:00Z",
+          "averageDelayMinutes": 35.0,
+          "maximumDelayMinutes": 113,
+          "updatedAt": "2026-09-24T20:47:21Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=83&adv_date=09242026&facId=EWR&title=ATCSCC ADVZY 083 EWR/ZNY 09/24/2026 CDM GROUND DELAY PROGRAM&titleDate=09/24/2026"
         }
       ]
     }
