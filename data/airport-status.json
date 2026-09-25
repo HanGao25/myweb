@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-09-25T07:37:20.904194+00:00",
+  "fetchedAt": "2026-09-25T13:36:44.730952+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -45,14 +45,14 @@
       "name": "La Guardia",
       "events": [
         {
-          "type": "Airport closure",
-          "reason": "!LGA 09/352 LGA AD AP CLSD EXC HEL 30MIN \rPPR 718-533-3700 2609250614-2609251000",
-          "start": "2026-09-25T06:14:00Z",
-          "end": "2026-09-25T10:00:00Z",
+          "type": "Ground stop",
+          "reason": "airport volume",
+          "start": "2026-09-25T13:09:00Z",
+          "end": "2026-09-25T14:00:00Z",
           "averageDelayMinutes": null,
           "maximumDelayMinutes": null,
-          "updatedAt": "2026-09-25T06:22:56Z",
-          "advisoryUrl": null
+          "updatedAt": "2026-09-25T13:25:02Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=33&adv_date=09252026&facId=LGA&title=ATCSCC ADVZY 033 LGA/ZNY 09/25/2026 CDM GROUND STOP&titleDate=09/25/2026"
         }
       ]
     }
