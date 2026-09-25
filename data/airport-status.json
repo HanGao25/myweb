@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-09-25T01:49:38.018993+00:00",
+  "fetchedAt": "2026-09-25T07:37:20.904194+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -41,18 +41,18 @@
   "unmappedAirspacePrograms": 0,
   "airports": [
     {
-      "code": "SEA",
-      "name": "Seattle-Tacoma International",
+      "code": "LGA",
+      "name": "La Guardia",
       "events": [
         {
-          "type": "Ground delay program",
-          "reason": "runway construction",
-          "start": "2026-09-25T01:00:00Z",
-          "end": "2026-09-25T05:59:00Z",
-          "averageDelayMinutes": 47.0,
-          "maximumDelayMinutes": 236,
-          "updatedAt": "2026-09-24T23:08:47Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=99&adv_date=09242026&facId=SEA&title=ATCSCC ADVZY 099 SEA/ZSE 09/24/2026 CDM GROUND DELAY PROGRAM&titleDate=09/24/2026"
+          "type": "Airport closure",
+          "reason": "!LGA 09/352 LGA AD AP CLSD EXC HEL 30MIN \rPPR 718-533-3700 2609250614-2609251000",
+          "start": "2026-09-25T06:14:00Z",
+          "end": "2026-09-25T10:00:00Z",
+          "averageDelayMinutes": null,
+          "maximumDelayMinutes": null,
+          "updatedAt": "2026-09-25T06:22:56Z",
+          "advisoryUrl": null
         }
       ]
     }
