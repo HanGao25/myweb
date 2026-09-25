@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-09-24T23:09:30.479417+00:00",
+  "fetchedAt": "2026-09-25T01:49:38.018993+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -41,34 +41,18 @@
   "unmappedAirspacePrograms": 0,
   "airports": [
     {
-      "code": "BOS",
-      "name": "General Edward Lawrence Logan International",
+      "code": "SEA",
+      "name": "Seattle-Tacoma International",
       "events": [
         {
           "type": "Ground delay program",
           "reason": "runway construction",
-          "start": "2026-09-24T17:54:00Z",
-          "end": "2026-09-25T03:59:00Z",
-          "averageDelayMinutes": 118.0,
-          "maximumDelayMinutes": 318,
-          "updatedAt": "2026-09-24T17:55:21Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=68&adv_date=09242026&facId=BOS&title=ATCSCC ADVZY 068 BOS/ZBW 09/24/2026 CDM GROUND DELAY PROGRAM&titleDate=09/24/2026"
-        }
-      ]
-    },
-    {
-      "code": "EWR",
-      "name": "Newark International",
-      "events": [
-        {
-          "type": "Ground delay program",
-          "reason": "airport volume",
-          "start": "2026-09-24T20:50:00Z",
-          "end": "2026-09-25T03:59:00Z",
-          "averageDelayMinutes": 35.0,
-          "maximumDelayMinutes": 113,
-          "updatedAt": "2026-09-24T20:47:21Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=83&adv_date=09242026&facId=EWR&title=ATCSCC ADVZY 083 EWR/ZNY 09/24/2026 CDM GROUND DELAY PROGRAM&titleDate=09/24/2026"
+          "start": "2026-09-25T01:00:00Z",
+          "end": "2026-09-25T05:59:00Z",
+          "averageDelayMinutes": 47.0,
+          "maximumDelayMinutes": 236,
+          "updatedAt": "2026-09-24T23:08:47Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=99&adv_date=09242026&facId=SEA&title=ATCSCC ADVZY 099 SEA/ZSE 09/24/2026 CDM GROUND DELAY PROGRAM&titleDate=09/24/2026"
         }
       ]
     }
