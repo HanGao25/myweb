@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-09-25T13:36:44.730952+00:00",
+  "fetchedAt": "2026-09-25T18:03:21.348349+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -45,14 +45,30 @@
       "name": "La Guardia",
       "events": [
         {
-          "type": "Ground stop",
-          "reason": "airport volume",
-          "start": "2026-09-25T13:09:00Z",
-          "end": "2026-09-25T14:00:00Z",
-          "averageDelayMinutes": null,
-          "maximumDelayMinutes": null,
-          "updatedAt": "2026-09-25T13:25:02Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=33&adv_date=09252026&facId=LGA&title=ATCSCC ADVZY 033 LGA/ZNY 09/25/2026 CDM GROUND STOP&titleDate=09/25/2026"
+          "type": "Ground delay program",
+          "reason": "wind",
+          "start": "2026-09-25T14:30:00Z",
+          "end": "2026-09-26T03:59:00Z",
+          "averageDelayMinutes": 114.0,
+          "maximumDelayMinutes": 186,
+          "updatedAt": "2026-09-25T14:34:43Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=39&adv_date=09252026&facId=LGA&title=ATCSCC ADVZY 039 LGA/ZNY 09/25/2026 CDM GROUND DELAY PROGRAM&titleDate=09/25/2026"
+        }
+      ]
+    },
+    {
+      "code": "SFO",
+      "name": "San Francisco International",
+      "events": [
+        {
+          "type": "Ground delay program",
+          "reason": "low ceilings",
+          "start": "2026-09-25T15:00:00Z",
+          "end": "2026-09-25T22:59:00Z",
+          "averageDelayMinutes": 44.0,
+          "maximumDelayMinutes": 94,
+          "updatedAt": "2026-09-25T12:28:47Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=31&adv_date=09252026&facId=SFO&title=ATCSCC ADVZY 031 SFO/ZOA 09/25/2026 CDM GROUND DELAY PROGRAM&titleDate=09/25/2026"
         }
       ]
     }
