@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-09-26T21:00:33.203144+00:00",
+  "fetchedAt": "2026-09-26T23:29:22.347816+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -57,22 +57,6 @@
       ]
     },
     {
-      "code": "EWR",
-      "name": "Newark International",
-      "events": [
-        {
-          "type": "Ground stop",
-          "reason": "airspace volume",
-          "start": "2026-09-26T19:29:00Z",
-          "end": "2026-09-26T21:30:00Z",
-          "averageDelayMinutes": null,
-          "maximumDelayMinutes": null,
-          "updatedAt": "2026-09-26T20:28:45Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=80&adv_date=09262026&facId=EWR&title=ATCSCC ADVZY 080 EWR/ZNY 09/26/2026 CDM GROUND STOP&titleDate=09/26/2026"
-        }
-      ]
-    },
-    {
       "code": "JFK",
       "name": "John F Kennedy International",
       "events": [
@@ -85,22 +69,6 @@
           "maximumDelayMinutes": 104,
           "updatedAt": "2026-09-26T19:30:21Z",
           "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=71&adv_date=09262026&facId=JFK&title=ATCSCC ADVZY 071 JFK/ZNY 09/26/2026 CDM GROUND DELAY PROGRAM&titleDate=09/26/2026"
-        }
-      ]
-    },
-    {
-      "code": "LGA",
-      "name": "La Guardia",
-      "events": [
-        {
-          "type": "Ground stop",
-          "reason": "airspace volume",
-          "start": "2026-09-26T19:47:00Z",
-          "end": "2026-09-26T21:30:00Z",
-          "averageDelayMinutes": null,
-          "maximumDelayMinutes": null,
-          "updatedAt": "2026-09-26T20:29:48Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=81&adv_date=09262026&facId=LGA&title=ATCSCC ADVZY 081 LGA/ZNY 09/26/2026 CDM GROUND STOP&titleDate=09/26/2026"
         }
       ]
     }
