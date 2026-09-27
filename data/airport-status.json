@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-09-27T13:49:26.386010+00:00",
+  "fetchedAt": "2026-09-27T18:15:39.221704+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -41,6 +41,22 @@
   "unmappedAirspacePrograms": 0,
   "airports": [
     {
+      "code": "BOS",
+      "name": "General Edward Lawrence Logan International",
+      "events": [
+        {
+          "type": "Ground delay program",
+          "reason": "wind",
+          "start": "2026-09-27T16:00:00Z",
+          "end": "2026-09-28T07:59:00Z",
+          "averageDelayMinutes": 243.0,
+          "maximumDelayMinutes": 426,
+          "updatedAt": "2026-09-27T11:46:18Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=30&adv_date=09272026&facId=BOS&title=ATCSCC ADVZY 030 BOS/ZBW 09/27/2026 CDM GROUND DELAY PROGRAM&titleDate=09/27/2026"
+        }
+      ]
+    },
+    {
       "code": "LGA",
       "name": "La Guardia",
       "events": [
@@ -49,26 +65,26 @@
           "reason": "wind",
           "start": "2026-09-27T13:00:00Z",
           "end": "2026-09-28T03:59:00Z",
-          "averageDelayMinutes": 103.0,
-          "maximumDelayMinutes": 369,
-          "updatedAt": "2026-09-27T13:16:48Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=48&adv_date=09272026&facId=LGA&title=ATCSCC ADVZY 048 LGA/ZNY 09/27/2026 CDM GROUND DELAY PROGRAM&titleDate=09/27/2026"
+          "averageDelayMinutes": 139.0,
+          "maximumDelayMinutes": 365,
+          "updatedAt": "2026-09-27T14:46:30Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=66&adv_date=09272026&facId=LGA&title=ATCSCC ADVZY 066 LGA/ZNY 09/27/2026 CDM GROUND DELAY PROGRAM&titleDate=09/27/2026"
         }
       ]
     },
     {
-      "code": "ORD",
-      "name": "Chicago OHare International",
+      "code": "SFO",
+      "name": "San Francisco International",
       "events": [
         {
           "type": "Ground delay program",
-          "reason": "other",
-          "start": "2026-09-27T12:30:00Z",
-          "end": "2026-09-28T00:59:00Z",
-          "averageDelayMinutes": 88.0,
-          "maximumDelayMinutes": 192,
-          "updatedAt": "2026-09-27T12:56:18Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=43&adv_date=09272026&facId=ORD&title=ATCSCC ADVZY 043 ORD/ZAU 09/27/2026 CDM GROUND DELAY PROGRAM&titleDate=09/27/2026"
+          "reason": "low ceilings",
+          "start": "2026-09-27T15:00:00Z",
+          "end": "2026-09-27T22:59:00Z",
+          "averageDelayMinutes": 49.0,
+          "maximumDelayMinutes": 102,
+          "updatedAt": "2026-09-27T12:28:15Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=38&adv_date=09272026&facId=SFO&title=ATCSCC ADVZY 038 SFO/ZOA 09/27/2026 CDM GROUND DELAY PROGRAM&titleDate=09/27/2026"
         }
       ]
     }
