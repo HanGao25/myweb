@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-09-27T18:15:39.221704+00:00",
+  "fetchedAt": "2026-09-27T21:32:29.950512+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -47,12 +47,44 @@
         {
           "type": "Ground delay program",
           "reason": "wind",
-          "start": "2026-09-27T16:00:00Z",
-          "end": "2026-09-28T07:59:00Z",
-          "averageDelayMinutes": 243.0,
-          "maximumDelayMinutes": 426,
-          "updatedAt": "2026-09-27T11:46:18Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=30&adv_date=09272026&facId=BOS&title=ATCSCC ADVZY 030 BOS/ZBW 09/27/2026 CDM GROUND DELAY PROGRAM&titleDate=09/27/2026"
+          "start": "2026-09-27T19:12:00Z",
+          "end": "2026-09-28T06:59:00Z",
+          "averageDelayMinutes": 213.0,
+          "maximumDelayMinutes": 873,
+          "updatedAt": "2026-09-27T19:12:46Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=96&adv_date=09272026&facId=BOS&title=ATCSCC ADVZY 096 BOS/ZBW 09/27/2026 CDM GROUND DELAY PROGRAM&titleDate=09/27/2026"
+        }
+      ]
+    },
+    {
+      "code": "EWR",
+      "name": "Newark International",
+      "events": [
+        {
+          "type": "Ground delay program",
+          "reason": "wind",
+          "start": "2026-09-27T21:00:00Z",
+          "end": "2026-09-28T03:59:00Z",
+          "averageDelayMinutes": 41.0,
+          "maximumDelayMinutes": 103,
+          "updatedAt": "2026-09-27T19:00:56Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=94&adv_date=09272026&facId=EWR&title=ATCSCC ADVZY 094 EWR/ZNY 09/27/2026 CDM GROUND DELAY PROGRAM&titleDate=09/27/2026"
+        }
+      ]
+    },
+    {
+      "code": "JFK",
+      "name": "John F Kennedy International",
+      "events": [
+        {
+          "type": "Ground delay program",
+          "reason": "wind",
+          "start": "2026-09-27T21:00:00Z",
+          "end": "2026-09-28T02:59:00Z",
+          "averageDelayMinutes": 52.0,
+          "maximumDelayMinutes": 102,
+          "updatedAt": "2026-09-27T17:52:17Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=86&adv_date=09272026&facId=JFK&title=ATCSCC ADVZY 086 JFK/ZNY 09/27/2026 CDM GROUND DELAY PROGRAM&titleDate=09/27/2026"
         }
       ]
     },
@@ -73,18 +105,18 @@
       ]
     },
     {
-      "code": "SFO",
-      "name": "San Francisco International",
+      "code": "PHL",
+      "name": "Philadelphia International",
       "events": [
         {
           "type": "Ground delay program",
-          "reason": "low ceilings",
-          "start": "2026-09-27T15:00:00Z",
-          "end": "2026-09-27T22:59:00Z",
-          "averageDelayMinutes": 49.0,
-          "maximumDelayMinutes": 102,
-          "updatedAt": "2026-09-27T12:28:15Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=38&adv_date=09272026&facId=SFO&title=ATCSCC ADVZY 038 SFO/ZOA 09/27/2026 CDM GROUND DELAY PROGRAM&titleDate=09/27/2026"
+          "reason": "wind",
+          "start": "2026-09-27T20:00:00Z",
+          "end": "2026-09-28T01:59:00Z",
+          "averageDelayMinutes": 48.0,
+          "maximumDelayMinutes": 139,
+          "updatedAt": "2026-09-27T17:22:52Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=81&adv_date=09272026&facId=PHL&title=ATCSCC ADVZY 081 PHL/ZNY 09/27/2026 CDM GROUND DELAY PROGRAM&titleDate=09/27/2026"
         }
       ]
     }
