@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-09-27T07:59:23.701514+00:00",
+  "fetchedAt": "2026-09-27T13:49:26.386010+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -39,5 +39,38 @@
   ],
   "coverage": "Active ground stops, ground delay programs, airport-wide closures, and airport-linked airspace flow programs. Excludes routine delays and GA-only notices. Regional AFPs, CTOPs, reroutes, and other advisories are not comprehensively covered.",
   "unmappedAirspacePrograms": 0,
-  "airports": []
+  "airports": [
+    {
+      "code": "LGA",
+      "name": "La Guardia",
+      "events": [
+        {
+          "type": "Ground delay program",
+          "reason": "wind",
+          "start": "2026-09-27T13:00:00Z",
+          "end": "2026-09-28T03:59:00Z",
+          "averageDelayMinutes": 103.0,
+          "maximumDelayMinutes": 369,
+          "updatedAt": "2026-09-27T13:16:48Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=48&adv_date=09272026&facId=LGA&title=ATCSCC ADVZY 048 LGA/ZNY 09/27/2026 CDM GROUND DELAY PROGRAM&titleDate=09/27/2026"
+        }
+      ]
+    },
+    {
+      "code": "ORD",
+      "name": "Chicago OHare International",
+      "events": [
+        {
+          "type": "Ground delay program",
+          "reason": "other",
+          "start": "2026-09-27T12:30:00Z",
+          "end": "2026-09-28T00:59:00Z",
+          "averageDelayMinutes": 88.0,
+          "maximumDelayMinutes": 192,
+          "updatedAt": "2026-09-27T12:56:18Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=43&adv_date=09272026&facId=ORD&title=ATCSCC ADVZY 043 ORD/ZAU 09/27/2026 CDM GROUND DELAY PROGRAM&titleDate=09/27/2026"
+        }
+      ]
+    }
+  ]
 }
