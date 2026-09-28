@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-09-28T19:35:14.399073+00:00",
+  "fetchedAt": "2026-09-28T23:54:18.925622+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -47,28 +47,28 @@
         {
           "type": "Ground delay program",
           "reason": "runway construction",
-          "start": "2026-09-28T11:30:00Z",
-          "end": "2026-09-29T06:59:00Z",
-          "averageDelayMinutes": 314.0,
-          "maximumDelayMinutes": 487,
-          "updatedAt": "2026-09-28T11:07:35Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=34&adv_date=09282026&facId=BOS&title=ATCSCC ADVZY 034 BOS/ZBW 09/28/2026 CDM GROUND DELAY PROGRAM&titleDate=09/28/2026"
+          "start": "2026-09-28T23:13:00Z",
+          "end": "2026-09-29T05:59:00Z",
+          "averageDelayMinutes": 264.0,
+          "maximumDelayMinutes": 1461,
+          "updatedAt": "2026-09-28T23:14:04Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=112&adv_date=09282026&facId=BOS&title=ATCSCC ADVZY 112 BOS/ZBW 09/28/2026 CDM GROUND DELAY PROGRAM&titleDate=09/28/2026"
         }
       ]
     },
     {
-      "code": "LGA",
-      "name": "La Guardia",
+      "code": "LAS",
+      "name": "Harry Reid International",
       "events": [
         {
           "type": "Ground delay program",
-          "reason": "low ceilings",
-          "start": "2026-09-28T18:15:00Z",
-          "end": "2026-09-29T01:59:00Z",
-          "averageDelayMinutes": 43.0,
-          "maximumDelayMinutes": 112,
-          "updatedAt": "2026-09-28T18:20:52Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=74&adv_date=09282026&facId=LGA&title=ATCSCC ADVZY 074 LGA/ZNY 09/28/2026 CDM GROUND DELAY PROGRAM&titleDate=09/28/2026"
+          "reason": "thunderstorms",
+          "start": "2026-09-28T23:00:00Z",
+          "end": "2026-09-29T07:59:00Z",
+          "averageDelayMinutes": 202.0,
+          "maximumDelayMinutes": 385,
+          "updatedAt": "2026-09-28T23:09:48Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=110&adv_date=09282026&facId=LAS&title=ATCSCC ADVZY 110 LAS/ZLA 09/28/2026 CDM GROUND DELAY PROGRAM&titleDate=09/28/2026"
         }
       ]
     }
