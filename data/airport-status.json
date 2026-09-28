@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-09-28T11:56:12.690595+00:00",
+  "fetchedAt": "2026-09-28T19:35:14.399073+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -53,6 +53,22 @@
           "maximumDelayMinutes": 487,
           "updatedAt": "2026-09-28T11:07:35Z",
           "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=34&adv_date=09282026&facId=BOS&title=ATCSCC ADVZY 034 BOS/ZBW 09/28/2026 CDM GROUND DELAY PROGRAM&titleDate=09/28/2026"
+        }
+      ]
+    },
+    {
+      "code": "LGA",
+      "name": "La Guardia",
+      "events": [
+        {
+          "type": "Ground delay program",
+          "reason": "low ceilings",
+          "start": "2026-09-28T18:15:00Z",
+          "end": "2026-09-29T01:59:00Z",
+          "averageDelayMinutes": 43.0,
+          "maximumDelayMinutes": 112,
+          "updatedAt": "2026-09-28T18:20:52Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=74&adv_date=09282026&facId=LGA&title=ATCSCC ADVZY 074 LGA/ZNY 09/28/2026 CDM GROUND DELAY PROGRAM&titleDate=09/28/2026"
         }
       ]
     }
