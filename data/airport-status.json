@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-09-28T23:54:18.925622+00:00",
+  "fetchedAt": "2026-09-29T05:33:23.534349+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -40,22 +40,6 @@
   "coverage": "Active ground stops, ground delay programs, airport-wide closures, and airport-linked airspace flow programs. Excludes routine delays and GA-only notices. Regional AFPs, CTOPs, reroutes, and other advisories are not comprehensively covered.",
   "unmappedAirspacePrograms": 0,
   "airports": [
-    {
-      "code": "BOS",
-      "name": "General Edward Lawrence Logan International",
-      "events": [
-        {
-          "type": "Ground delay program",
-          "reason": "runway construction",
-          "start": "2026-09-28T23:13:00Z",
-          "end": "2026-09-29T05:59:00Z",
-          "averageDelayMinutes": 264.0,
-          "maximumDelayMinutes": 1461,
-          "updatedAt": "2026-09-28T23:14:04Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=112&adv_date=09282026&facId=BOS&title=ATCSCC ADVZY 112 BOS/ZBW 09/28/2026 CDM GROUND DELAY PROGRAM&titleDate=09/28/2026"
-        }
-      ]
-    },
     {
       "code": "LAS",
       "name": "Harry Reid International",
