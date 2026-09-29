@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-09-29T11:31:23.732080+00:00",
+  "fetchedAt": "2026-09-29T16:58:46.460592+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -39,5 +39,38 @@
   ],
   "coverage": "Active ground stops, ground delay programs, airport-wide closures, and airport-linked airspace flow programs. Excludes routine delays and GA-only notices. Regional AFPs, CTOPs, reroutes, and other advisories are not comprehensively covered.",
   "unmappedAirspacePrograms": 0,
-  "airports": []
+  "airports": [
+    {
+      "code": "BOS",
+      "name": "General Edward Lawrence Logan International",
+      "events": [
+        {
+          "type": "Ground delay program",
+          "reason": "runway construction",
+          "start": "2026-09-29T16:00:00Z",
+          "end": "2026-09-30T05:59:00Z",
+          "averageDelayMinutes": 86.0,
+          "maximumDelayMinutes": 203,
+          "updatedAt": "2026-09-29T12:15:27Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=38&adv_date=09292026&facId=BOS&title=ATCSCC ADVZY 038 BOS/ZBW 09/29/2026 CDM GROUND DELAY PROGRAM&titleDate=09/29/2026"
+        }
+      ]
+    },
+    {
+      "code": "PHX",
+      "name": "Phoenix Sky Harbor International",
+      "events": [
+        {
+          "type": "Ground delay program",
+          "reason": "thunderstorms",
+          "start": "2026-09-29T14:30:00Z",
+          "end": "2026-09-29T19:59:00Z",
+          "averageDelayMinutes": 37.0,
+          "maximumDelayMinutes": 85,
+          "updatedAt": "2026-09-29T12:23:35Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=39&adv_date=09292026&facId=PHX&title=ATCSCC ADVZY 039 PHX/ZAB 09/29/2026 CDM GROUND DELAY PROGRAM&titleDate=09/29/2026"
+        }
+      ]
+    }
+  ]
 }
