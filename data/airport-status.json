@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-09-29T21:20:23.591340+00:00",
+  "fetchedAt": "2026-09-30T00:43:11.947473+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -53,22 +53,6 @@
           "maximumDelayMinutes": 306,
           "updatedAt": "2026-09-29T19:48:55Z",
           "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=70&adv_date=09292026&facId=BOS&title=ATCSCC ADVZY 070 BOS/ZBW 09/29/2026 CDM GROUND DELAY PROGRAM&titleDate=09/29/2026"
-        }
-      ]
-    },
-    {
-      "code": "YUL",
-      "name": "Montréal-Pierre Elliott Trudeau International Airport",
-      "events": [
-        {
-          "type": "Ground delay program",
-          "reason": "runway construction",
-          "start": "2026-09-29T19:00:00Z",
-          "end": "2026-09-29T23:59:00Z",
-          "averageDelayMinutes": 19.0,
-          "maximumDelayMinutes": 47,
-          "updatedAt": "2026-09-29T16:42:30Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=6010&adv_date=09292026&facId=YUL&title=ATCSCC ADVZY 010 CYUL/CZU 09/29/2026 CDM GROUND DELAY PROGRAM&titleDate=09/29/2026"
         }
       ]
     }
