@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-10-01T07:41:04.758930+00:00",
+  "fetchedAt": "2026-10-01T15:22:17.575824+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -39,5 +39,38 @@
   ],
   "coverage": "Active ground stops, ground delay programs, airport-wide closures, and airport-linked airspace flow programs. Excludes routine delays and GA-only notices. Regional AFPs, CTOPs, reroutes, and other advisories are not comprehensively covered.",
   "unmappedAirspacePrograms": 0,
-  "airports": []
+  "airports": [
+    {
+      "code": "DFW",
+      "name": "Dallas/Ft Worth International",
+      "events": [
+        {
+          "type": "Ground delay program",
+          "reason": "thunderstorms",
+          "start": "2026-10-01T12:00:00Z",
+          "end": "2026-10-02T02:59:00Z",
+          "averageDelayMinutes": 169.0,
+          "maximumDelayMinutes": 627,
+          "updatedAt": "2026-10-01T13:52:52Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=56&adv_date=10012026&facId=DFW&title=ATCSCC ADVZY 056 DFW/ZFW 10/01/2026 CDM GROUND DELAY PROGRAM&titleDate=10/01/2026"
+        }
+      ]
+    },
+    {
+      "code": "SFO",
+      "name": "San Francisco International",
+      "events": [
+        {
+          "type": "Ground delay program",
+          "reason": "low ceilings",
+          "start": "2026-10-01T15:00:00Z",
+          "end": "2026-10-01T19:59:00Z",
+          "averageDelayMinutes": 48.0,
+          "maximumDelayMinutes": 115,
+          "updatedAt": "2026-10-01T13:06:27Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=45&adv_date=10012026&facId=SFO&title=ATCSCC ADVZY 045 SFO/ZOA 10/01/2026 CDM GROUND DELAY PROGRAM&titleDate=10/01/2026"
+        }
+      ]
+    }
+  ]
 }
