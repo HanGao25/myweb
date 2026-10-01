@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-09-30T22:32:01.470119+00:00",
+  "fetchedAt": "2026-10-01T01:28:03.038781+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -39,54 +39,5 @@
   ],
   "coverage": "Active ground stops, ground delay programs, airport-wide closures, and airport-linked airspace flow programs. Excludes routine delays and GA-only notices. Regional AFPs, CTOPs, reroutes, and other advisories are not comprehensively covered.",
   "unmappedAirspacePrograms": 0,
-  "airports": [
-    {
-      "code": "BOS",
-      "name": "General Edward Lawrence Logan International",
-      "events": [
-        {
-          "type": "Ground delay program",
-          "reason": "runway construction",
-          "start": "2026-09-30T17:00:00Z",
-          "end": "2026-10-01T02:59:00Z",
-          "averageDelayMinutes": 50.0,
-          "maximumDelayMinutes": 160,
-          "updatedAt": "2026-09-30T17:09:26Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=51&adv_date=09302026&facId=BOS&title=ATCSCC ADVZY 051 BOS/ZBW 09/30/2026 CDM GROUND DELAY PROGRAM&titleDate=09/30/2026"
-        }
-      ]
-    },
-    {
-      "code": "DFW",
-      "name": "Dallas/Ft Worth International",
-      "events": [
-        {
-          "type": "Ground delay program",
-          "reason": "thunderstorms",
-          "start": "2026-09-30T20:45:00Z",
-          "end": "2026-10-01T01:59:00Z",
-          "averageDelayMinutes": 48.0,
-          "maximumDelayMinutes": 162,
-          "updatedAt": "2026-09-30T20:55:59Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=74&adv_date=09302026&facId=DFW&title=ATCSCC ADVZY 074 DFW/ZFW 09/30/2026 CDM GROUND DELAY PROGRAM&titleDate=09/30/2026"
-        }
-      ]
-    },
-    {
-      "code": "YUL",
-      "name": "Montréal-Pierre Elliott Trudeau International Airport",
-      "events": [
-        {
-          "type": "Ground delay program",
-          "reason": "runway construction",
-          "start": "2026-09-30T19:15:00Z",
-          "end": "2026-09-30T23:59:00Z",
-          "averageDelayMinutes": 38.0,
-          "maximumDelayMinutes": 80,
-          "updatedAt": "2026-09-30T16:49:01Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=6008&adv_date=09302026&facId=YUL&title=ATCSCC ADVZY 008 CYUL/CZU 09/30/2026 CDM GROUND DELAY PROGRAM&titleDate=09/30/2026"
-        }
-      ]
-    }
-  ]
+  "airports": []
 }
