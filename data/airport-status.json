@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-10-01T20:27:28.630433+00:00",
+  "fetchedAt": "2026-10-02T00:06:29.985335+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -47,12 +47,12 @@
         {
           "type": "Ground delay program",
           "reason": "runway construction",
-          "start": "2026-10-01T16:00:00Z",
-          "end": "2026-10-02T01:59:00Z",
-          "averageDelayMinutes": 73.0,
-          "maximumDelayMinutes": 317,
-          "updatedAt": "2026-10-01T15:04:44Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=63&adv_date=10012026&facId=BOS&title=ATCSCC ADVZY 063 BOS/ZBW 10/01/2026 CDM GROUND DELAY PROGRAM&titleDate=10/01/2026"
+          "start": "2026-10-02T00:00:00Z",
+          "end": "2026-10-02T03:59:00Z",
+          "averageDelayMinutes": 69.0,
+          "maximumDelayMinutes": 339,
+          "updatedAt": "2026-10-01T22:29:05Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=153&adv_date=10012026&facId=BOS&title=ATCSCC ADVZY 153 BOS/ZBW 10/01/2026 CDM GROUND DELAY PROGRAM&titleDate=10/01/2026"
         }
       ]
     },
@@ -61,24 +61,14 @@
       "name": "Dallas/Ft Worth International",
       "events": [
         {
-          "type": "Ground stop",
-          "reason": "VIP",
-          "start": "2026-10-01T18:06:00Z",
-          "end": "2026-10-01T20:30:00Z",
-          "averageDelayMinutes": null,
-          "maximumDelayMinutes": null,
-          "updatedAt": "2026-10-01T19:18:09Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=115&adv_date=10012026&facId=DFW&title=ATCSCC ADVZY 115 DFW/ZFW 10/01/2026 CDM GROUND STOP&titleDate=10/01/2026"
-        },
-        {
           "type": "Ground delay program",
-          "reason": "thunderstorms",
-          "start": "2026-10-01T16:55:00Z",
-          "end": "2026-10-02T02:59:00Z",
-          "averageDelayMinutes": 103.0,
-          "maximumDelayMinutes": 916,
-          "updatedAt": "2026-10-01T16:55:44Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=75&adv_date=10012026&facId=DFW&title=ATCSCC ADVZY 075 DFW/ZFW 10/01/2026 CDM GROUND DELAY PROGRAM&titleDate=10/01/2026"
+          "reason": "other",
+          "start": "2026-10-01T20:53:00Z",
+          "end": "2026-10-02T03:59:00Z",
+          "averageDelayMinutes": 144.0,
+          "maximumDelayMinutes": 1387,
+          "updatedAt": "2026-10-01T21:28:48Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=143&adv_date=10012026&facId=DFW&title=ATCSCC ADVZY 143 DFW/ZFW 10/01/2026 CDM GROUND DELAY PROGRAM&titleDate=10/01/2026"
         }
       ]
     },
@@ -87,24 +77,14 @@
       "name": "Chicago OHare International",
       "events": [
         {
-          "type": "Ground stop",
-          "reason": "wind",
-          "start": "2026-10-01T20:11:00Z",
-          "end": "2026-10-01T21:15:00Z",
-          "averageDelayMinutes": null,
-          "maximumDelayMinutes": null,
-          "updatedAt": "2026-10-01T20:24:30Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=124&adv_date=10012026&facId=ORD&title=ATCSCC ADVZY 124 ORD/ZAU 10/01/2026 CDM GROUND STOP&titleDate=10/01/2026"
-        },
-        {
           "type": "Ground delay program",
-          "reason": "rain",
-          "start": "2026-10-01T17:50:00Z",
-          "end": "2026-10-02T02:29:00Z",
-          "averageDelayMinutes": 31.0,
-          "maximumDelayMinutes": 104,
-          "updatedAt": "2026-10-01T18:05:09Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=100&adv_date=10012026&facId=ORD&title=ATCSCC ADVZY 100 ORD/ZAU 10/01/2026 CDM GROUND DELAY PROGRAM&titleDate=10/01/2026"
+          "reason": "other",
+          "start": "2026-10-01T22:57:00Z",
+          "end": "2026-10-02T06:59:00Z",
+          "averageDelayMinutes": 192.0,
+          "maximumDelayMinutes": 464,
+          "updatedAt": "2026-10-01T22:58:10Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=156&adv_date=10012026&facId=ORD&title=ATCSCC ADVZY 156 ORD/ZAU 10/01/2026 CDM GROUND DELAY PROGRAM&titleDate=10/01/2026"
         }
       ]
     }
