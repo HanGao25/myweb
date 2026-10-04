@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-10-04T14:19:05.797959+00:00",
+  "fetchedAt": "2026-10-04T18:19:02.520139+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -39,5 +39,38 @@
   ],
   "coverage": "Active ground stops, ground delay programs, airport-wide closures, and airport-linked airspace flow programs. Excludes routine delays and GA-only notices. Regional AFPs, CTOPs, reroutes, and other advisories are not comprehensively covered.",
   "unmappedAirspacePrograms": 0,
-  "airports": []
+  "airports": [
+    {
+      "code": "BOS",
+      "name": "General Edward Lawrence Logan International",
+      "events": [
+        {
+          "type": "Ground delay program",
+          "reason": "low ceilings",
+          "start": "2026-10-04T17:30:00Z",
+          "end": "2026-10-05T04:59:00Z",
+          "averageDelayMinutes": 60.0,
+          "maximumDelayMinutes": 164,
+          "updatedAt": "2026-10-04T12:34:52Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=20&adv_date=10042026&facId=BOS&title=ATCSCC ADVZY 020 BOS/ZBW 10/04/2026 CDM GROUND DELAY PROGRAM&titleDate=10/04/2026"
+        }
+      ]
+    },
+    {
+      "code": "PHL",
+      "name": "Philadelphia International",
+      "events": [
+        {
+          "type": "Ground delay program",
+          "reason": "low ceilings",
+          "start": "2026-10-04T18:00:00Z",
+          "end": "2026-10-05T03:59:00Z",
+          "averageDelayMinutes": 82.0,
+          "maximumDelayMinutes": 139,
+          "updatedAt": "2026-10-04T16:22:30Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=44&adv_date=10042026&facId=PHL&title=ATCSCC ADVZY 044 PHL/ZNY 10/04/2026 CDM GROUND DELAY PROGRAM&titleDate=10/04/2026"
+        }
+      ]
+    }
+  ]
 }
