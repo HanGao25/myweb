@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-10-08T13:56:21.431402+00:00",
+  "fetchedAt": "2026-10-08T19:48:04.256105+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -39,5 +39,48 @@
   ],
   "coverage": "Active ground stops, ground delay programs, airport-wide closures, and airport-linked airspace flow programs. Excludes routine delays and GA-only notices. Regional AFPs, CTOPs, reroutes, and other advisories are not comprehensively covered.",
   "unmappedAirspacePrograms": 0,
-  "airports": []
+  "airports": [
+    {
+      "code": "BOS",
+      "name": "General Edward Lawrence Logan International",
+      "events": [
+        {
+          "type": "Ground delay program",
+          "reason": "runway construction",
+          "start": "2026-10-08T17:30:00Z",
+          "end": "2026-10-09T04:59:00Z",
+          "averageDelayMinutes": 83.0,
+          "maximumDelayMinutes": 186,
+          "updatedAt": "2026-10-08T12:13:44Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=19&adv_date=10082026&facId=BOS&title=ATCSCC ADVZY 019 BOS/ZBW 10/08/2026 CDM GROUND DELAY PROGRAM&titleDate=10/08/2026"
+        }
+      ]
+    },
+    {
+      "code": "YUL",
+      "name": "Montréal-Pierre Elliott Trudeau International Airport",
+      "events": [
+        {
+          "type": "Ground stop",
+          "reason": "runway construction",
+          "start": "2026-10-08T19:30:00Z",
+          "end": "2026-10-08T20:30:00Z",
+          "averageDelayMinutes": null,
+          "maximumDelayMinutes": null,
+          "updatedAt": "2026-10-08T19:30:19Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=6010&adv_date=10082026&facId=YUL&title=ATCSCC ADVZY 010 CYUL/CZU 10/08/2026 CDM GROUND STOP&titleDate=10/08/2026"
+        },
+        {
+          "type": "Ground delay program",
+          "reason": "other",
+          "start": "2026-10-08T19:15:00Z",
+          "end": "2026-10-08T21:44:00Z",
+          "averageDelayMinutes": 21.0,
+          "maximumDelayMinutes": 76,
+          "updatedAt": "2026-10-08T16:59:23Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=6008&adv_date=10082026&facId=YUL&title=ATCSCC ADVZY 008 CYUL/CZU 10/08/2026 CDM GROUND DELAY PROGRAM&titleDate=10/08/2026"
+        }
+      ]
+    }
+  ]
 }
