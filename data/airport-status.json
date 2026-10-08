@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-10-07T20:06:26.917041+00:00",
+  "fetchedAt": "2026-10-08T00:08:29.091087+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -53,38 +53,6 @@
           "maximumDelayMinutes": 164,
           "updatedAt": "2026-10-07T11:46:03Z",
           "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=15&adv_date=10072026&facId=BOS&title=ATCSCC ADVZY 015 BOS/ZBW 10/07/2026 CDM GROUND DELAY PROGRAM&titleDate=10/07/2026"
-        }
-      ]
-    },
-    {
-      "code": "MIA",
-      "name": "Miami International",
-      "events": [
-        {
-          "type": "Ground stop",
-          "reason": "thunderstorms",
-          "start": "2026-10-07T19:23:00Z",
-          "end": "2026-10-07T21:00:00Z",
-          "averageDelayMinutes": null,
-          "maximumDelayMinutes": null,
-          "updatedAt": "2026-10-07T19:43:43Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=54&adv_date=10072026&facId=MIA&title=ATCSCC ADVZY 054 MIA/ZMA 10/07/2026 CDM GROUND STOP&titleDate=10/07/2026"
-        }
-      ]
-    },
-    {
-      "code": "YYC",
-      "name": "Calgary International Airport",
-      "events": [
-        {
-          "type": "Ground delay program",
-          "reason": "runway construction",
-          "start": "2026-10-07T19:00:00Z",
-          "end": "2026-10-07T23:59:00Z",
-          "averageDelayMinutes": 31.0,
-          "maximumDelayMinutes": 80,
-          "updatedAt": "2026-10-07T18:50:07Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=6009&adv_date=10072026&facId=YYC&title=ATCSCC ADVZY 009 CYYC/CZE 10/07/2026 CDM GROUND DELAY PROGRAM&titleDate=10/07/2026"
         }
       ]
     }
