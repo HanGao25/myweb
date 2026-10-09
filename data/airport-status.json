@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-10-09T00:14:37.801606+00:00",
+  "fetchedAt": "2026-10-09T06:34:57.349326+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -39,54 +39,5 @@
   ],
   "coverage": "Active ground stops, ground delay programs, airport-wide closures, and airport-linked airspace flow programs. Excludes routine delays and GA-only notices. Regional AFPs, CTOPs, reroutes, and other advisories are not comprehensively covered.",
   "unmappedAirspacePrograms": 0,
-  "airports": [
-    {
-      "code": "BOS",
-      "name": "General Edward Lawrence Logan International",
-      "events": [
-        {
-          "type": "Ground delay program",
-          "reason": "runway construction",
-          "start": "2026-10-08T17:30:00Z",
-          "end": "2026-10-09T04:59:00Z",
-          "averageDelayMinutes": 83.0,
-          "maximumDelayMinutes": 186,
-          "updatedAt": "2026-10-08T12:13:44Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=19&adv_date=10082026&facId=BOS&title=ATCSCC ADVZY 019 BOS/ZBW 10/08/2026 CDM GROUND DELAY PROGRAM&titleDate=10/08/2026"
-        }
-      ]
-    },
-    {
-      "code": "JFK",
-      "name": "John F Kennedy International",
-      "events": [
-        {
-          "type": "Ground delay program",
-          "reason": "wind",
-          "start": "2026-10-08T21:00:00Z",
-          "end": "2026-10-09T02:59:00Z",
-          "averageDelayMinutes": 34.0,
-          "maximumDelayMinutes": 86,
-          "updatedAt": "2026-10-08T18:19:55Z",
-          "advisoryUrl": null
-        }
-      ]
-    },
-    {
-      "code": "YYC",
-      "name": "Calgary International Airport",
-      "events": [
-        {
-          "type": "Ground delay program",
-          "reason": "runway construction",
-          "start": "2026-10-08T23:00:00Z",
-          "end": "2026-10-09T00:59:00Z",
-          "averageDelayMinutes": 32.0,
-          "maximumDelayMinutes": 70,
-          "updatedAt": "2026-10-08T21:13:04Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=6016&adv_date=10082026&facId=YYC&title=ATCSCC ADVZY 016 CYYC/CZE 10/08/2026 CDM GROUND DELAY PROGRAM&titleDate=10/08/2026"
-        }
-      ]
-    }
-  ]
+  "airports": []
 }
