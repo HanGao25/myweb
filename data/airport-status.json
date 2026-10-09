@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-10-09T13:40:55.773166+00:00",
+  "fetchedAt": "2026-10-09T19:25:45.255450+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -53,6 +53,38 @@
           "maximumDelayMinutes": 216,
           "updatedAt": "2026-10-09T11:08:33Z",
           "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=21&adv_date=10092026&facId=BOS&title=ATCSCC ADVZY 021 BOS/ZBW 10/09/2026 CDM GROUND DELAY PROGRAM&titleDate=10/09/2026"
+        }
+      ]
+    },
+    {
+      "code": "SFO",
+      "name": "San Francisco International",
+      "events": [
+        {
+          "type": "Ground delay program",
+          "reason": "air show",
+          "start": "2026-10-09T15:30:00Z",
+          "end": "2026-10-10T05:59:00Z",
+          "averageDelayMinutes": 59.0,
+          "maximumDelayMinutes": 120,
+          "updatedAt": "2026-10-09T12:19:46Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=27&adv_date=10092026&facId=SFO&title=ATCSCC ADVZY 027 SFO/ZOA 10/09/2026 CDM GROUND DELAY PROGRAM&titleDate=10/09/2026"
+        }
+      ]
+    },
+    {
+      "code": "YUL",
+      "name": "Montréal-Pierre Elliott Trudeau International Airport",
+      "events": [
+        {
+          "type": "Ground delay program",
+          "reason": "runway construction",
+          "start": "2026-10-09T19:00:00Z",
+          "end": "2026-10-10T00:59:00Z",
+          "averageDelayMinutes": 29.0,
+          "maximumDelayMinutes": 138,
+          "updatedAt": "2026-10-09T17:02:40Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=6010&adv_date=10092026&facId=YUL&title=ATCSCC ADVZY 010 CYUL/CZU 10/09/2026 CDM GROUND DELAY PROGRAM&titleDate=10/09/2026"
         }
       ]
     }
