@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-10-10T15:49:34.930545+00:00",
+  "fetchedAt": "2026-10-10T19:59:12.860321+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -39,5 +39,54 @@
   ],
   "coverage": "Active ground stops, ground delay programs, airport-wide closures, and airport-linked airspace flow programs. Excludes routine delays and GA-only notices. Regional AFPs, CTOPs, reroutes, and other advisories are not comprehensively covered.",
   "unmappedAirspacePrograms": 0,
-  "airports": []
+  "airports": [
+    {
+      "code": "MCO",
+      "name": "Orlando International",
+      "events": [
+        {
+          "type": "Ground stop",
+          "reason": "thunderstorms",
+          "start": "2026-10-10T18:10:00Z",
+          "end": "2026-10-10T20:00:00Z",
+          "averageDelayMinutes": null,
+          "maximumDelayMinutes": null,
+          "updatedAt": "2026-10-10T19:16:06Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=52&adv_date=10102026&facId=MCO&title=ATCSCC ADVZY 052 MCO/ZJX 10/10/2026 CDM GROUND STOP&titleDate=10/10/2026"
+        }
+      ]
+    },
+    {
+      "code": "SFO",
+      "name": "San Francisco International",
+      "events": [
+        {
+          "type": "Ground delay program",
+          "reason": "low ceilings",
+          "start": "2026-10-10T16:15:00Z",
+          "end": "2026-10-11T01:59:00Z",
+          "averageDelayMinutes": 29.0,
+          "maximumDelayMinutes": 106,
+          "updatedAt": "2026-10-10T16:18:18Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=43&adv_date=10102026&facId=SFO&title=ATCSCC ADVZY 043 SFO/ZOA 10/10/2026 CDM GROUND DELAY PROGRAM&titleDate=10/10/2026"
+        }
+      ]
+    },
+    {
+      "code": "YUL",
+      "name": "Montréal-Pierre Elliott Trudeau International Airport",
+      "events": [
+        {
+          "type": "Ground delay program",
+          "reason": "runway construction",
+          "start": "2026-10-10T19:30:00Z",
+          "end": "2026-10-10T21:59:00Z",
+          "averageDelayMinutes": 21.0,
+          "maximumDelayMinutes": 65,
+          "updatedAt": "2026-10-10T16:35:55Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=6008&adv_date=10102026&facId=YUL&title=ATCSCC ADVZY 008 CYUL/CZU 10/10/2026 CDM GROUND DELAY PROGRAM&titleDate=10/10/2026"
+        }
+      ]
+    }
+  ]
 }
