@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-10-11T19:40:13.508238+00:00",
+  "fetchedAt": "2026-10-11T23:34:29.059850+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -46,13 +46,13 @@
       "events": [
         {
           "type": "Ground delay program",
-          "reason": "runway construction",
+          "reason": "RWY",
           "start": "2026-10-11T17:00:00Z",
           "end": "2026-10-12T03:59:00Z",
           "averageDelayMinutes": 70.0,
           "maximumDelayMinutes": 180,
-          "updatedAt": "2026-10-11T11:11:31Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=20&adv_date=10112026&facId=BOS&title=ATCSCC ADVZY 020 BOS/ZBW 10/11/2026 CDM GROUND DELAY PROGRAM&titleDate=10/11/2026"
+          "updatedAt": "2026-10-11T23:25:52Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=124&adv_date=10112026&facId=BOS&title=ATCSCC ADVZY 124 BOS/ZBW 10/11/2026 CDM COMPRESSION&titleDate=10/11/2026"
         }
       ]
     },
@@ -73,18 +73,50 @@
       ]
     },
     {
+      "code": "DEN",
+      "name": "Denver International",
+      "events": [
+        {
+          "type": "Ground delay program",
+          "reason": "runway construction",
+          "start": "2026-10-11T21:45:00Z",
+          "end": "2026-10-12T01:59:00Z",
+          "averageDelayMinutes": 33.0,
+          "maximumDelayMinutes": 89,
+          "updatedAt": "2026-10-11T20:50:49Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=104&adv_date=10112026&facId=DEN&title=ATCSCC ADVZY 104 DEN/ZDV 10/11/2026 CDM GROUND DELAY PROGRAM&titleDate=10/11/2026"
+        }
+      ]
+    },
+    {
+      "code": "EWR",
+      "name": "Newark International",
+      "events": [
+        {
+          "type": "Ground delay program",
+          "reason": "low ceilings",
+          "start": "2026-10-11T23:05:00Z",
+          "end": "2026-10-12T02:59:00Z",
+          "averageDelayMinutes": 80.0,
+          "maximumDelayMinutes": 199,
+          "updatedAt": "2026-10-11T23:08:37Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=120&adv_date=10112026&facId=EWR&title=ATCSCC ADVZY 120 EWR/ZNY 10/11/2026 CDM GROUND DELAY PROGRAM&titleDate=10/11/2026"
+        }
+      ]
+    },
+    {
       "code": "JFK",
       "name": "John F Kennedy International",
       "events": [
         {
-          "type": "Ground stop",
-          "reason": "bird strike",
-          "start": "2026-10-11T19:14:00Z",
-          "end": "2026-10-11T20:30:00Z",
-          "averageDelayMinutes": null,
-          "maximumDelayMinutes": null,
-          "updatedAt": "2026-10-11T19:28:47Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=97&adv_date=10112026&facId=JFK&title=ATCSCC ADVZY 097 JFK/ZNY 10/11/2026 CDM GROUND STOP&titleDate=10/11/2026"
+          "type": "Ground delay program",
+          "reason": "low ceilings",
+          "start": "2026-10-11T20:00:00Z",
+          "end": "2026-10-12T03:59:00Z",
+          "averageDelayMinutes": 76.0,
+          "maximumDelayMinutes": 136,
+          "updatedAt": "2026-10-11T19:44:27Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=99&adv_date=10112026&facId=JFK&title=ATCSCC ADVZY 099 JFK/ZNY 10/11/2026 CDM GROUND DELAY PROGRAM&titleDate=10/11/2026"
         }
       ]
     },
@@ -105,34 +137,18 @@
       ]
     },
     {
-      "code": "PHX",
-      "name": "Phoenix Sky Harbor International",
+      "code": "PHL",
+      "name": "Philadelphia International",
       "events": [
         {
           "type": "Ground delay program",
-          "reason": "wind",
-          "start": "2026-10-11T16:30:00Z",
-          "end": "2026-10-11T23:59:00Z",
-          "averageDelayMinutes": 83.0,
-          "maximumDelayMinutes": 211,
-          "updatedAt": "2026-10-11T16:40:40Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=76&adv_date=10112026&facId=PHX&title=ATCSCC ADVZY 076 PHX/ZAB 10/11/2026 CDM GROUND DELAY PROGRAM&titleDate=10/11/2026"
-        }
-      ]
-    },
-    {
-      "code": "YUL",
-      "name": "Montréal-Pierre Elliott Trudeau International Airport",
-      "events": [
-        {
-          "type": "Ground delay program",
-          "reason": "other",
-          "start": "2026-10-11T19:00:00Z",
-          "end": "2026-10-11T21:59:00Z",
-          "averageDelayMinutes": 30.0,
-          "maximumDelayMinutes": 71,
-          "updatedAt": "2026-10-11T16:35:13Z",
-          "advisoryUrl": null
+          "reason": "low ceilings",
+          "start": "2026-10-11T20:00:00Z",
+          "end": "2026-10-12T02:59:00Z",
+          "averageDelayMinutes": 66.0,
+          "maximumDelayMinutes": 126,
+          "updatedAt": "2026-10-11T17:48:36Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=82&adv_date=10112026&facId=PHL&title=ATCSCC ADVZY 082 PHL/ZNY 10/11/2026 CDM GROUND DELAY PROGRAM&titleDate=10/11/2026"
         }
       ]
     }
