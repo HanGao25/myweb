@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-10-11T15:32:52.896305+00:00",
+  "fetchedAt": "2026-10-11T19:40:13.508238+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -41,6 +41,54 @@
   "unmappedAirspacePrograms": 0,
   "airports": [
     {
+      "code": "BOS",
+      "name": "General Edward Lawrence Logan International",
+      "events": [
+        {
+          "type": "Ground delay program",
+          "reason": "runway construction",
+          "start": "2026-10-11T17:00:00Z",
+          "end": "2026-10-12T03:59:00Z",
+          "averageDelayMinutes": 70.0,
+          "maximumDelayMinutes": 180,
+          "updatedAt": "2026-10-11T11:11:31Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=20&adv_date=10112026&facId=BOS&title=ATCSCC ADVZY 020 BOS/ZBW 10/11/2026 CDM GROUND DELAY PROGRAM&titleDate=10/11/2026"
+        }
+      ]
+    },
+    {
+      "code": "DCA",
+      "name": "Ronald Reagan Washington National",
+      "events": [
+        {
+          "type": "Ground delay program",
+          "reason": "low ceilings",
+          "start": "2026-10-11T18:33:00Z",
+          "end": "2026-10-12T02:59:00Z",
+          "averageDelayMinutes": 33.0,
+          "maximumDelayMinutes": 89,
+          "updatedAt": "2026-10-11T18:47:54Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=90&adv_date=10112026&facId=DCA&title=ATCSCC ADVZY 090 DCA/ZDC 10/11/2026 CDM GROUND DELAY PROGRAM&titleDate=10/11/2026"
+        }
+      ]
+    },
+    {
+      "code": "JFK",
+      "name": "John F Kennedy International",
+      "events": [
+        {
+          "type": "Ground stop",
+          "reason": "bird strike",
+          "start": "2026-10-11T19:14:00Z",
+          "end": "2026-10-11T20:30:00Z",
+          "averageDelayMinutes": null,
+          "maximumDelayMinutes": null,
+          "updatedAt": "2026-10-11T19:28:47Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=97&adv_date=10112026&facId=JFK&title=ATCSCC ADVZY 097 JFK/ZNY 10/11/2026 CDM GROUND STOP&titleDate=10/11/2026"
+        }
+      ]
+    },
+    {
       "code": "LAS",
       "name": "Harry Reid International",
       "events": [
@@ -62,13 +110,29 @@
       "events": [
         {
           "type": "Ground delay program",
-          "reason": "low ceilings",
-          "start": "2026-10-11T14:30:00Z",
-          "end": "2026-10-11T17:59:00Z",
-          "averageDelayMinutes": 39.0,
-          "maximumDelayMinutes": 91,
-          "updatedAt": "2026-10-11T12:33:13Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=30&adv_date=10112026&facId=PHX&title=ATCSCC ADVZY 030 PHX/ZAB 10/11/2026 CDM GROUND DELAY PROGRAM&titleDate=10/11/2026"
+          "reason": "wind",
+          "start": "2026-10-11T16:30:00Z",
+          "end": "2026-10-11T23:59:00Z",
+          "averageDelayMinutes": 83.0,
+          "maximumDelayMinutes": 211,
+          "updatedAt": "2026-10-11T16:40:40Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=76&adv_date=10112026&facId=PHX&title=ATCSCC ADVZY 076 PHX/ZAB 10/11/2026 CDM GROUND DELAY PROGRAM&titleDate=10/11/2026"
+        }
+      ]
+    },
+    {
+      "code": "YUL",
+      "name": "Montréal-Pierre Elliott Trudeau International Airport",
+      "events": [
+        {
+          "type": "Ground delay program",
+          "reason": "other",
+          "start": "2026-10-11T19:00:00Z",
+          "end": "2026-10-11T21:59:00Z",
+          "averageDelayMinutes": 30.0,
+          "maximumDelayMinutes": 71,
+          "updatedAt": "2026-10-11T16:35:13Z",
+          "advisoryUrl": null
         }
       ]
     }
