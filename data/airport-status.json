@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-10-11T08:42:51.148841+00:00",
+  "fetchedAt": "2026-10-11T15:32:52.896305+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -39,5 +39,38 @@
   ],
   "coverage": "Active ground stops, ground delay programs, airport-wide closures, and airport-linked airspace flow programs. Excludes routine delays and GA-only notices. Regional AFPs, CTOPs, reroutes, and other advisories are not comprehensively covered.",
   "unmappedAirspacePrograms": 0,
-  "airports": []
+  "airports": [
+    {
+      "code": "LAS",
+      "name": "Harry Reid International",
+      "events": [
+        {
+          "type": "Ground delay program",
+          "reason": "low ceilings",
+          "start": "2026-10-11T15:00:00Z",
+          "end": "2026-10-12T06:59:00Z",
+          "averageDelayMinutes": 51.0,
+          "maximumDelayMinutes": 189,
+          "updatedAt": "2026-10-11T14:52:15Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=55&adv_date=10112026&facId=LAS&title=ATCSCC ADVZY 055 LAS/ZLA 10/11/2026 CDM GROUND DELAY PROGRAM&titleDate=10/11/2026"
+        }
+      ]
+    },
+    {
+      "code": "PHX",
+      "name": "Phoenix Sky Harbor International",
+      "events": [
+        {
+          "type": "Ground delay program",
+          "reason": "low ceilings",
+          "start": "2026-10-11T14:30:00Z",
+          "end": "2026-10-11T17:59:00Z",
+          "averageDelayMinutes": 39.0,
+          "maximumDelayMinutes": 91,
+          "updatedAt": "2026-10-11T12:33:13Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=30&adv_date=10112026&facId=PHX&title=ATCSCC ADVZY 030 PHX/ZAB 10/11/2026 CDM GROUND DELAY PROGRAM&titleDate=10/11/2026"
+        }
+      ]
+    }
+  ]
 }
