@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-10-12T09:42:36.319683+00:00",
+  "fetchedAt": "2026-10-12T19:45:15.598582+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -39,5 +39,38 @@
   ],
   "coverage": "Active ground stops, ground delay programs, airport-wide closures, and airport-linked airspace flow programs. Excludes routine delays and GA-only notices. Regional AFPs, CTOPs, reroutes, and other advisories are not comprehensively covered.",
   "unmappedAirspacePrograms": 0,
-  "airports": []
+  "airports": [
+    {
+      "code": "BOS",
+      "name": "General Edward Lawrence Logan International",
+      "events": [
+        {
+          "type": "Ground delay program",
+          "reason": "low ceilings",
+          "start": "2026-10-12T12:42:00Z",
+          "end": "2026-10-13T03:59:00Z",
+          "averageDelayMinutes": 75.0,
+          "maximumDelayMinutes": 387,
+          "updatedAt": "2026-10-12T12:42:56Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=36&adv_date=10122026&facId=BOS&title=ATCSCC ADVZY 036 BOS/ZBW 10/12/2026 CDM GROUND DELAY PROGRAM&titleDate=10/12/2026"
+        }
+      ]
+    },
+    {
+      "code": "RDU",
+      "name": "Raleigh-Durham International",
+      "events": [
+        {
+          "type": "Ground delay program",
+          "reason": "equipment outage",
+          "start": "2026-10-12T18:45:00Z",
+          "end": "2026-10-12T22:59:00Z",
+          "averageDelayMinutes": 134.0,
+          "maximumDelayMinutes": 356,
+          "updatedAt": "2026-10-12T18:54:50Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=77&adv_date=10122026&facId=RDU&title=ATCSCC ADVZY 077 RDU/ZDC 10/12/2026 CDM GROUND DELAY PROGRAM&titleDate=10/12/2026"
+        }
+      ]
+    }
+  ]
 }
