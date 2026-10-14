@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-10-14T11:40:31.598385+00:00",
+  "fetchedAt": "2026-10-14T17:01:14.656509+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -41,18 +41,50 @@
   "unmappedAirspacePrograms": 0,
   "airports": [
     {
-      "code": "LAX",
-      "name": "Los Angeles International",
+      "code": "DEN",
+      "name": "Denver International",
+      "events": [
+        {
+          "type": "Ground delay program",
+          "reason": "runway construction",
+          "start": "2026-10-14T15:30:00Z",
+          "end": "2026-10-14T18:59:00Z",
+          "averageDelayMinutes": 30.0,
+          "maximumDelayMinutes": 78,
+          "updatedAt": "2026-10-14T13:11:51Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=39&adv_date=10142026&facId=DEN&title=ATCSCC ADVZY 039 DEN/ZDV 10/14/2026 CDM GROUND DELAY PROGRAM&titleDate=10/14/2026"
+        }
+      ]
+    },
+    {
+      "code": "EWR",
+      "name": "Newark International",
       "events": [
         {
           "type": "Ground stop",
-          "reason": "equipment outage",
-          "start": "2026-10-14T10:46:00Z",
-          "end": "2026-10-14T12:00:00Z",
+          "reason": "thunderstorms",
+          "start": "2026-10-14T16:19:00Z",
+          "end": "2026-10-14T17:45:00Z",
           "averageDelayMinutes": null,
           "maximumDelayMinutes": null,
-          "updatedAt": "2026-10-14T11:01:57Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=27&adv_date=10142026&facId=LAX&title=ATCSCC ADVZY 027 LAX/ZLA 10/14/2026 CDM GROUND STOP&titleDate=10/14/2026"
+          "updatedAt": "2026-10-14T16:39:50Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=54&adv_date=10142026&facId=EWR&title=ATCSCC ADVZY 054 EWR/ZNY 10/14/2026 CDM GROUND STOP&titleDate=10/14/2026"
+        }
+      ]
+    },
+    {
+      "code": "LGA",
+      "name": "La Guardia",
+      "events": [
+        {
+          "type": "Ground stop",
+          "reason": "thunderstorms",
+          "start": "2026-10-14T16:16:00Z",
+          "end": "2026-10-14T17:45:00Z",
+          "averageDelayMinutes": null,
+          "maximumDelayMinutes": null,
+          "updatedAt": "2026-10-14T16:38:09Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=53&adv_date=10142026&facId=LGA&title=ATCSCC ADVZY 053 LGA/ZNY 10/14/2026 CDM GROUND STOP&titleDate=10/14/2026"
         }
       ]
     }
