@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-10-14T06:03:02.428631+00:00",
+  "fetchedAt": "2026-10-14T11:40:31.598385+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -39,5 +39,22 @@
   ],
   "coverage": "Active ground stops, ground delay programs, airport-wide closures, and airport-linked airspace flow programs. Excludes routine delays and GA-only notices. Regional AFPs, CTOPs, reroutes, and other advisories are not comprehensively covered.",
   "unmappedAirspacePrograms": 0,
-  "airports": []
+  "airports": [
+    {
+      "code": "LAX",
+      "name": "Los Angeles International",
+      "events": [
+        {
+          "type": "Ground stop",
+          "reason": "equipment outage",
+          "start": "2026-10-14T10:46:00Z",
+          "end": "2026-10-14T12:00:00Z",
+          "averageDelayMinutes": null,
+          "maximumDelayMinutes": null,
+          "updatedAt": "2026-10-14T11:01:57Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=27&adv_date=10142026&facId=LAX&title=ATCSCC ADVZY 027 LAX/ZLA 10/14/2026 CDM GROUND STOP&titleDate=10/14/2026"
+        }
+      ]
+    }
+  ]
 }
