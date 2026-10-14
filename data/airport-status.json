@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-10-14T20:33:21.893403+00:00",
+  "fetchedAt": "2026-10-14T23:23:27.031384+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -41,28 +41,18 @@
   "unmappedAirspacePrograms": 0,
   "airports": [
     {
-      "code": "BOS",
-      "name": "General Edward Lawrence Logan International",
+      "code": "DEN",
+      "name": "Denver International",
       "events": [
         {
-          "type": "Ground stop",
-          "reason": "runway construction",
-          "start": "2026-10-14T19:37:00Z",
-          "end": "2026-10-14T21:00:00Z",
-          "averageDelayMinutes": null,
-          "maximumDelayMinutes": null,
-          "updatedAt": "2026-10-14T19:53:04Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=83&adv_date=10142026&facId=BOS&title=ATCSCC ADVZY 083 BOS/ZBW 10/14/2026 CDM GROUND STOP&titleDate=10/14/2026"
-        },
-        {
           "type": "Ground delay program",
-          "reason": "runway construction",
-          "start": "2026-10-14T17:30:00Z",
-          "end": "2026-10-15T03:59:00Z",
-          "averageDelayMinutes": 66.0,
-          "maximumDelayMinutes": 167,
-          "updatedAt": "2026-10-14T11:31:36Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=30&adv_date=10142026&facId=BOS&title=ATCSCC ADVZY 030 BOS/ZBW 10/14/2026 CDM GROUND DELAY PROGRAM&titleDate=10/14/2026"
+          "reason": "low ceilings",
+          "start": "2026-10-14T22:00:00Z",
+          "end": "2026-10-15T02:59:00Z",
+          "averageDelayMinutes": 61.0,
+          "maximumDelayMinutes": 114,
+          "updatedAt": "2026-10-14T19:32:41Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=80&adv_date=10142026&facId=DEN&title=ATCSCC ADVZY 080 DEN/ZDV 10/14/2026 CDM GROUND DELAY PROGRAM&titleDate=10/14/2026"
         }
       ]
     }
