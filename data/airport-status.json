@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-10-15T23:46:46.296011+00:00",
+  "fetchedAt": "2026-10-16T04:18:27.068220+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -39,54 +39,5 @@
   ],
   "coverage": "Active ground stops, ground delay programs, airport-wide closures, and airport-linked airspace flow programs. Excludes routine delays and GA-only notices. Regional AFPs, CTOPs, reroutes, and other advisories are not comprehensively covered.",
   "unmappedAirspacePrograms": 0,
-  "airports": [
-    {
-      "code": "DFW",
-      "name": "Dallas/Ft Worth International",
-      "events": [
-        {
-          "type": "Ground delay program",
-          "reason": "thunderstorms",
-          "start": "2026-10-15T23:15:00Z",
-          "end": "2026-10-16T02:59:00Z",
-          "averageDelayMinutes": 51.0,
-          "maximumDelayMinutes": 245,
-          "updatedAt": "2026-10-15T23:31:23Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=96&adv_date=10152026&facId=DFW&title=ATCSCC ADVZY 096 DFW/ZFW 10/15/2026 CDM GROUND DELAY PROGRAM&titleDate=10/15/2026"
-        }
-      ]
-    },
-    {
-      "code": "ORD",
-      "name": "Chicago OHare International",
-      "events": [
-        {
-          "type": "Ground stop",
-          "reason": "thunderstorms",
-          "start": "2026-10-15T23:00:00Z",
-          "end": "2026-10-16T00:00:00Z",
-          "averageDelayMinutes": null,
-          "maximumDelayMinutes": null,
-          "updatedAt": "2026-10-15T23:11:06Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=92&adv_date=10152026&facId=ORD&title=ATCSCC ADVZY 092 ORD/ZAU 10/15/2026 CDM GROUND STOP&titleDate=10/15/2026"
-        }
-      ]
-    },
-    {
-      "code": "YYC",
-      "name": "Calgary International Airport",
-      "events": [
-        {
-          "type": "Ground delay program",
-          "reason": "runway construction",
-          "start": "2026-10-15T23:30:00Z",
-          "end": "2026-10-16T00:59:00Z",
-          "averageDelayMinutes": 31.0,
-          "maximumDelayMinutes": 76,
-          "updatedAt": "2026-10-15T21:56:07Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=6014&adv_date=10152026&facId=YYC&title=ATCSCC ADVZY 014 CYYC/CZE 10/15/2026 CDM GROUND DELAY PROGRAM&titleDate=10/15/2026"
-        }
-      ]
-    }
-  ]
+  "airports": []
 }
