@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-10-16T09:13:50.687872+00:00",
+  "fetchedAt": "2026-10-16T14:09:42.963094+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -39,5 +39,22 @@
   ],
   "coverage": "Active ground stops, ground delay programs, airport-wide closures, and airport-linked airspace flow programs. Excludes routine delays and GA-only notices. Regional AFPs, CTOPs, reroutes, and other advisories are not comprehensively covered.",
   "unmappedAirspacePrograms": 0,
-  "airports": []
+  "airports": [
+    {
+      "code": "DCA",
+      "name": "Ronald Reagan Washington National",
+      "events": [
+        {
+          "type": "Ground delay program",
+          "reason": "low ceilings",
+          "start": "2026-10-16T12:15:00Z",
+          "end": "2026-10-17T02:59:00Z",
+          "averageDelayMinutes": 44.0,
+          "maximumDelayMinutes": 94,
+          "updatedAt": "2026-10-16T12:17:34Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=54&adv_date=10162026&facId=DCA&title=ATCSCC ADVZY 054 DCA/ZDC 10/16/2026 CDM GROUND DELAY PROGRAM&titleDate=10/16/2026"
+        }
+      ]
+    }
+  ]
 }
