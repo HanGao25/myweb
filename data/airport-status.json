@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-10-16T23:50:43.578263+00:00",
+  "fetchedAt": "2026-10-17T04:09:22.714185+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -41,90 +41,6 @@
   "unmappedAirspacePrograms": 0,
   "airports": [
     {
-      "code": "BOS",
-      "name": "General Edward Lawrence Logan International",
-      "events": [
-        {
-          "type": "Ground delay program",
-          "reason": "low ceilings",
-          "start": "2026-10-16T19:51:00Z",
-          "end": "2026-10-17T05:59:00Z",
-          "averageDelayMinutes": 101.0,
-          "maximumDelayMinutes": 490,
-          "updatedAt": "2026-10-16T19:53:45Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=134&adv_date=10162026&facId=BOS&title=ATCSCC ADVZY 134 BOS/ZBW 10/16/2026 CDM GROUND DELAY PROGRAM&titleDate=10/16/2026"
-        }
-      ]
-    },
-    {
-      "code": "DCA",
-      "name": "Ronald Reagan Washington National",
-      "events": [
-        {
-          "type": "Ground stop",
-          "reason": "low ceilings",
-          "start": "2026-10-16T22:12:00Z",
-          "end": "2026-10-17T00:15:00Z",
-          "averageDelayMinutes": null,
-          "maximumDelayMinutes": null,
-          "updatedAt": "2026-10-16T23:03:21Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=169&adv_date=10162026&facId=DCA&title=ATCSCC ADVZY 169 DCA/ZDC 10/16/2026 CDM GROUND STOP&titleDate=10/16/2026"
-        },
-        {
-          "type": "Ground delay program",
-          "reason": "low ceilings",
-          "start": "2026-10-16T12:15:00Z",
-          "end": "2026-10-17T02:59:00Z",
-          "averageDelayMinutes": 44.0,
-          "maximumDelayMinutes": 94,
-          "updatedAt": "2026-10-16T12:17:34Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=54&adv_date=10162026&facId=DCA&title=ATCSCC ADVZY 054 DCA/ZDC 10/16/2026 CDM GROUND DELAY PROGRAM&titleDate=10/16/2026"
-        }
-      ]
-    },
-    {
-      "code": "EWR",
-      "name": "Newark International",
-      "events": [
-        {
-          "type": "Ground stop",
-          "reason": "STAFFING",
-          "start": "2026-10-16T22:52:00Z",
-          "end": "2026-10-17T00:30:00Z",
-          "averageDelayMinutes": null,
-          "maximumDelayMinutes": null,
-          "updatedAt": "2026-10-16T23:32:17Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=182&adv_date=10162026&facId=EWR&title=ATCSCC ADVZY 182 EWR/ZNY 10/16/2026 CDM GROUND STOP&titleDate=10/16/2026"
-        },
-        {
-          "type": "Ground delay program",
-          "reason": "other",
-          "start": "2026-10-16T21:00:00Z",
-          "end": "2026-10-17T04:59:00Z",
-          "averageDelayMinutes": 72.0,
-          "maximumDelayMinutes": 137,
-          "updatedAt": "2026-10-16T19:59:42Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=135&adv_date=10162026&facId=EWR&title=ATCSCC ADVZY 135 EWR/ZNY 10/16/2026 CDM GROUND DELAY PROGRAM&titleDate=10/16/2026"
-        }
-      ]
-    },
-    {
-      "code": "JFK",
-      "name": "John F Kennedy International",
-      "events": [
-        {
-          "type": "Ground delay program",
-          "reason": "thunderstorms",
-          "start": "2026-10-16T21:30:00Z",
-          "end": "2026-10-17T02:59:00Z",
-          "averageDelayMinutes": 60.0,
-          "maximumDelayMinutes": 133,
-          "updatedAt": "2026-10-16T20:19:36Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=141&adv_date=10162026&facId=JFK&title=ATCSCC ADVZY 141 JFK/ZNY 10/16/2026 CDM GROUND DELAY PROGRAM&titleDate=10/16/2026"
-        }
-      ]
-    },
-    {
       "code": "LAS",
       "name": "Harry Reid International",
       "events": [
@@ -141,76 +57,18 @@
       ]
     },
     {
-      "code": "LGA",
-      "name": "La Guardia",
-      "events": [
-        {
-          "type": "Ground stop",
-          "reason": "thunderstorms",
-          "start": "2026-10-16T23:08:00Z",
-          "end": "2026-10-17T00:15:00Z",
-          "averageDelayMinutes": null,
-          "maximumDelayMinutes": null,
-          "updatedAt": "2026-10-16T23:20:36Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=178&adv_date=10162026&facId=LGA&title=ATCSCC ADVZY 178 LGA/ZNY 10/16/2026 CDM GROUND STOP&titleDate=10/16/2026"
-        },
-        {
-          "type": "Ground delay program",
-          "reason": "thunderstorms",
-          "start": "2026-10-16T17:00:00Z",
-          "end": "2026-10-17T03:59:00Z",
-          "averageDelayMinutes": 31.0,
-          "maximumDelayMinutes": 88,
-          "updatedAt": "2026-10-16T15:44:09Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=79&adv_date=10162026&facId=LGA&title=ATCSCC ADVZY 079 LGA/ZNY 10/16/2026 CDM GROUND DELAY PROGRAM&titleDate=10/16/2026"
-        }
-      ]
-    },
-    {
-      "code": "PHL",
-      "name": "Philadelphia International",
+      "code": "PHX",
+      "name": "Phoenix Sky Harbor International",
       "events": [
         {
           "type": "Ground delay program",
-          "reason": "thunderstorms",
-          "start": "2026-10-16T18:00:00Z",
-          "end": "2026-10-17T01:59:00Z",
-          "averageDelayMinutes": 57.0,
-          "maximumDelayMinutes": 245,
-          "updatedAt": "2026-10-16T15:39:16Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=76&adv_date=10162026&facId=PHL&title=ATCSCC ADVZY 076 PHL/ZNY 10/16/2026 CDM GROUND DELAY PROGRAM&titleDate=10/16/2026"
-        }
-      ]
-    },
-    {
-      "code": "YUL",
-      "name": "Montréal-Pierre Elliott Trudeau International Airport",
-      "events": [
-        {
-          "type": "Ground delay program",
-          "reason": "runway maintenance",
-          "start": "2026-10-16T19:45:00Z",
-          "end": "2026-10-17T00:59:00Z",
-          "averageDelayMinutes": 64.0,
-          "maximumDelayMinutes": 113,
-          "updatedAt": "2026-10-16T19:40:18Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=6012&adv_date=10162026&facId=YUL&title=ATCSCC ADVZY 012 CYUL/CZU 10/16/2026 CDM GROUND DELAY PROGRAM&titleDate=10/16/2026"
-        }
-      ]
-    },
-    {
-      "code": "YVR",
-      "name": "Vancouver International Airport",
-      "events": [
-        {
-          "type": "Ground stop",
-          "reason": "OCL:",
-          "start": "2026-10-16T23:24:00Z",
-          "end": "2026-10-17T00:45:00Z",
-          "averageDelayMinutes": null,
-          "maximumDelayMinutes": null,
-          "updatedAt": "2026-10-16T23:39:51Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=6016&adv_date=10162026&facId=YVR&title=ATCSCC ADVZY 016 CYVR/CZV 10/16/2026 CDM GROUND STOP&titleDate=10/16/2026"
+          "reason": "other",
+          "start": "2026-10-17T00:30:00Z",
+          "end": "2026-10-17T06:59:00Z",
+          "averageDelayMinutes": 65.0,
+          "maximumDelayMinutes": 130,
+          "updatedAt": "2026-10-16T22:20:45Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=158&adv_date=10162026&facId=PHX&title=ATCSCC ADVZY 158 PHX/ZAB 10/16/2026 CDM GROUND DELAY PROGRAM&titleDate=10/16/2026"
         }
       ]
     }
