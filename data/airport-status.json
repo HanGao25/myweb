@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-10-17T18:44:49.520586+00:00",
+  "fetchedAt": "2026-10-17T21:22:56.940701+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -41,18 +41,18 @@
   "unmappedAirspacePrograms": 0,
   "airports": [
     {
-      "code": "YVR",
-      "name": "Vancouver International Airport",
+      "code": "EWR",
+      "name": "Newark International",
       "events": [
         {
           "type": "Ground delay program",
           "reason": "other",
-          "start": "2026-10-17T18:15:00Z",
-          "end": "2026-10-17T19:59:00Z",
-          "averageDelayMinutes": 15.0,
-          "maximumDelayMinutes": 43,
-          "updatedAt": "2026-10-17T16:08:04Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=6009&adv_date=10172026&facId=YVR&title=ATCSCC ADVZY 009 CYVR/CZV 10/17/2026 CDM GROUND DELAY PROGRAM&titleDate=10/17/2026"
+          "start": "2026-10-17T20:00:00Z",
+          "end": "2026-10-18T03:59:00Z",
+          "averageDelayMinutes": 67.0,
+          "maximumDelayMinutes": 116,
+          "updatedAt": "2026-10-17T16:58:15Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=89&adv_date=10172026&facId=EWR&title=ATCSCC ADVZY 089 EWR/ZNY 10/17/2026 CDM GROUND DELAY PROGRAM&titleDate=10/17/2026"
         }
       ]
     }
