@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-10-18T17:59:45.521580+00:00",
+  "fetchedAt": "2026-10-18T20:28:53.671639+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -38,6 +38,39 @@
     "YYZ"
   ],
   "coverage": "Active ground stops, ground delay programs, airport-wide closures, and airport-linked airspace flow programs. Excludes routine delays and GA-only notices. Regional AFPs, CTOPs, reroutes, and other advisories are not comprehensively covered.",
-  "unmappedAirspacePrograms": 0,
-  "airports": []
+  "unmappedAirspacePrograms": 1,
+  "airports": [
+    {
+      "code": "LAS",
+      "name": "Harry Reid International",
+      "events": [
+        {
+          "type": "Ground delay program",
+          "reason": "aircraft emergency",
+          "start": "2026-10-18T19:20:00Z",
+          "end": "2026-10-19T03:59:00Z",
+          "averageDelayMinutes": 70.0,
+          "maximumDelayMinutes": 195,
+          "updatedAt": "2026-10-18T19:42:50Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=59&adv_date=10182026&facId=LAS&title=ATCSCC ADVZY 059 LAS/ZLA 10/18/2026 CDM GROUND DELAY PROGRAM&titleDate=10/18/2026"
+        }
+      ]
+    },
+    {
+      "code": "YUL",
+      "name": "Montréal-Pierre Elliott Trudeau International Airport",
+      "events": [
+        {
+          "type": "Ground delay program",
+          "reason": "other",
+          "start": "2026-10-18T19:15:00Z",
+          "end": "2026-10-18T23:29:00Z",
+          "averageDelayMinutes": 20.0,
+          "maximumDelayMinutes": 67,
+          "updatedAt": "2026-10-18T16:49:14Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=6009&adv_date=10182026&facId=YUL&title=ATCSCC ADVZY 009 CYUL/CZU 10/18/2026 CDM GROUND DELAY PROGRAM&titleDate=10/18/2026"
+        }
+      ]
+    }
+  ]
 }
