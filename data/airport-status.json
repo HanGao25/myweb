@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-10-18T01:27:09.431701+00:00",
+  "fetchedAt": "2026-10-18T06:30:31.168649+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -39,22 +39,5 @@
   ],
   "coverage": "Active ground stops, ground delay programs, airport-wide closures, and airport-linked airspace flow programs. Excludes routine delays and GA-only notices. Regional AFPs, CTOPs, reroutes, and other advisories are not comprehensively covered.",
   "unmappedAirspacePrograms": 0,
-  "airports": [
-    {
-      "code": "EWR",
-      "name": "Newark International",
-      "events": [
-        {
-          "type": "Ground delay program",
-          "reason": "other",
-          "start": "2026-10-17T20:00:00Z",
-          "end": "2026-10-18T03:59:00Z",
-          "averageDelayMinutes": 67.0,
-          "maximumDelayMinutes": 116,
-          "updatedAt": "2026-10-17T16:58:15Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=89&adv_date=10172026&facId=EWR&title=ATCSCC ADVZY 089 EWR/ZNY 10/17/2026 CDM GROUND DELAY PROGRAM&titleDate=10/17/2026"
-        }
-      ]
-    }
-  ]
+  "airports": []
 }
