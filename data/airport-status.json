@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-10-19T11:09:22.601541+00:00",
+  "fetchedAt": "2026-10-19T17:42:20.648223+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -39,5 +39,22 @@
   ],
   "coverage": "Active ground stops, ground delay programs, airport-wide closures, and airport-linked airspace flow programs. Excludes routine delays and GA-only notices. Regional AFPs, CTOPs, reroutes, and other advisories are not comprehensively covered.",
   "unmappedAirspacePrograms": 0,
-  "airports": []
+  "airports": [
+    {
+      "code": "SFO",
+      "name": "San Francisco International",
+      "events": [
+        {
+          "type": "Ground delay program",
+          "reason": "low ceilings",
+          "start": "2026-10-19T15:30:00Z",
+          "end": "2026-10-19T22:59:00Z",
+          "averageDelayMinutes": 55.0,
+          "maximumDelayMinutes": 123,
+          "updatedAt": "2026-10-19T12:33:16Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=26&adv_date=10192026&facId=SFO&title=ATCSCC ADVZY 026 SFO/ZOA 10/19/2026 CDM GROUND DELAY PROGRAM&titleDate=10/19/2026"
+        }
+      ]
+    }
+  ]
 }
