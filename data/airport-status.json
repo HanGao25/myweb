@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-10-19T05:11:10.850552+00:00",
+  "fetchedAt": "2026-10-19T11:09:22.601541+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -39,38 +39,5 @@
   ],
   "coverage": "Active ground stops, ground delay programs, airport-wide closures, and airport-linked airspace flow programs. Excludes routine delays and GA-only notices. Regional AFPs, CTOPs, reroutes, and other advisories are not comprehensively covered.",
   "unmappedAirspacePrograms": 0,
-  "airports": [
-    {
-      "code": "LGA",
-      "name": "La Guardia",
-      "events": [
-        {
-          "type": "Airport closure",
-          "reason": "!LGA 10/232 LGA AD AP CLSD EXC HEL 30MIN \rPPR 718-533-3700 2610190418-2610191000",
-          "start": "2026-10-19T04:18:00Z",
-          "end": "2026-10-19T10:00:00Z",
-          "averageDelayMinutes": null,
-          "maximumDelayMinutes": null,
-          "updatedAt": "2026-10-19T04:21:48Z",
-          "advisoryUrl": null
-        }
-      ]
-    },
-    {
-      "code": "SFO",
-      "name": "San Francisco International",
-      "events": [
-        {
-          "type": "Ground delay program",
-          "reason": "low ceilings",
-          "start": "2026-10-19T03:43:00Z",
-          "end": "2026-10-19T07:29:00Z",
-          "averageDelayMinutes": 58.0,
-          "maximumDelayMinutes": 167,
-          "updatedAt": "2026-10-19T03:45:40Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=12&adv_date=10192026&facId=SFO&title=ATCSCC ADVZY 012 SFO/ZOA 10/19/2026 CDM GROUND DELAY PROGRAM&titleDate=10/19/2026"
-        }
-      ]
-    }
-  ]
+  "airports": []
 }
