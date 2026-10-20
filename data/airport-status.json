@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-10-20T06:29:45.555379+00:00",
+  "fetchedAt": "2026-10-20T11:59:38.777846+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -39,38 +39,5 @@
   ],
   "coverage": "Active ground stops, ground delay programs, airport-wide closures, and airport-linked airspace flow programs. Excludes routine delays and GA-only notices. Regional AFPs, CTOPs, reroutes, and other advisories are not comprehensively covered.",
   "unmappedAirspacePrograms": 0,
-  "airports": [
-    {
-      "code": "LAS",
-      "name": "Harry Reid International",
-      "events": [
-        {
-          "type": "Ground delay program",
-          "reason": "other",
-          "start": "2026-10-20T03:15:00Z",
-          "end": "2026-10-20T07:29:00Z",
-          "averageDelayMinutes": 48.0,
-          "maximumDelayMinutes": 172,
-          "updatedAt": "2026-10-20T00:47:10Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=3&adv_date=10202026&facId=LAS&title=ATCSCC ADVZY 003 LAS/ZLA 10/20/2026 CDM GROUND DELAY PROGRAM&titleDate=10/20/2026"
-        }
-      ]
-    },
-    {
-      "code": "LGA",
-      "name": "La Guardia",
-      "events": [
-        {
-          "type": "Airport closure",
-          "reason": "!LGA 10/238 LGA AD AP CLSD EXC HEL 30MIN \rPPR 718-533-3700 2610200414-2610201000",
-          "start": "2026-10-20T04:14:00Z",
-          "end": "2026-10-20T10:00:00Z",
-          "averageDelayMinutes": null,
-          "maximumDelayMinutes": null,
-          "updatedAt": "2026-10-20T04:18:28Z",
-          "advisoryUrl": null
-        }
-      ]
-    }
-  ]
+  "airports": []
 }
