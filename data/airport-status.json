@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-10-20T16:47:43.710609+00:00",
+  "fetchedAt": "2026-10-20T20:26:03.133147+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -39,5 +39,22 @@
   ],
   "coverage": "Active ground stops, ground delay programs, airport-wide closures, and airport-linked airspace flow programs. Excludes routine delays and GA-only notices. Regional AFPs, CTOPs, reroutes, and other advisories are not comprehensively covered.",
   "unmappedAirspacePrograms": 0,
-  "airports": []
+  "airports": [
+    {
+      "code": "YUL",
+      "name": "Montréal-Pierre Elliott Trudeau International Airport",
+      "events": [
+        {
+          "type": "Ground delay program",
+          "reason": "other",
+          "start": "2026-10-20T19:15:00Z",
+          "end": "2026-10-20T22:14:00Z",
+          "averageDelayMinutes": 30.0,
+          "maximumDelayMinutes": 54,
+          "updatedAt": "2026-10-20T16:38:13Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=6007&adv_date=10202026&facId=YUL&title=ATCSCC ADVZY 007 CYUL/CZU 10/20/2026 CDM GROUND DELAY PROGRAM&titleDate=10/20/2026"
+        }
+      ]
+    }
+  ]
 }
