@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-10-21T07:26:18.793163+00:00",
+  "fetchedAt": "2026-10-21T13:08:29.056857+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -39,22 +39,5 @@
   ],
   "coverage": "Active ground stops, ground delay programs, airport-wide closures, and airport-linked airspace flow programs. Excludes routine delays and GA-only notices. Regional AFPs, CTOPs, reroutes, and other advisories are not comprehensively covered.",
   "unmappedAirspacePrograms": 0,
-  "airports": [
-    {
-      "code": "LGA",
-      "name": "La Guardia",
-      "events": [
-        {
-          "type": "Airport closure",
-          "reason": "!LGA 10/252 LGA AD AP CLSD EXC HEL 30MIN \rPPR 718-533-3700 2610210405-2610211000",
-          "start": "2026-10-21T04:05:00Z",
-          "end": "2026-10-21T10:00:00Z",
-          "averageDelayMinutes": null,
-          "maximumDelayMinutes": null,
-          "updatedAt": "2026-10-21T04:10:56Z",
-          "advisoryUrl": null
-        }
-      ]
-    }
-  ]
+  "airports": []
 }
