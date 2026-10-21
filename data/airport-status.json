@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-10-21T13:08:29.056857+00:00",
+  "fetchedAt": "2026-10-21T18:12:52.068824+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -39,5 +39,32 @@
   ],
   "coverage": "Active ground stops, ground delay programs, airport-wide closures, and airport-linked airspace flow programs. Excludes routine delays and GA-only notices. Regional AFPs, CTOPs, reroutes, and other advisories are not comprehensively covered.",
   "unmappedAirspacePrograms": 0,
-  "airports": []
+  "airports": [
+    {
+      "code": "BOS",
+      "name": "General Edward Lawrence Logan International",
+      "events": [
+        {
+          "type": "Ground stop",
+          "reason": "airspace volume",
+          "start": "2026-10-21T16:55:00Z",
+          "end": "2026-10-21T18:15:00Z",
+          "averageDelayMinutes": null,
+          "maximumDelayMinutes": null,
+          "updatedAt": "2026-10-21T17:09:20Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=42&adv_date=10212026&facId=BOS&title=ATCSCC ADVZY 042 BOS/ZBW 10/21/2026 CDM GROUND STOP&titleDate=10/21/2026"
+        },
+        {
+          "type": "Ground delay program",
+          "reason": "runway construction",
+          "start": "2026-10-21T17:00:00Z",
+          "end": "2026-10-22T03:59:00Z",
+          "averageDelayMinutes": 55.0,
+          "maximumDelayMinutes": 279,
+          "updatedAt": "2026-10-21T11:34:53Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=21&adv_date=10212026&facId=BOS&title=ATCSCC ADVZY 021 BOS/ZBW 10/21/2026 CDM GROUND DELAY PROGRAM&titleDate=10/21/2026"
+        }
+      ]
+    }
+  ]
 }
