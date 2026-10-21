@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-10-20T23:19:40.157842+00:00",
+  "fetchedAt": "2026-10-21T01:55:58.745981+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -39,5 +39,22 @@
   ],
   "coverage": "Active ground stops, ground delay programs, airport-wide closures, and airport-linked airspace flow programs. Excludes routine delays and GA-only notices. Regional AFPs, CTOPs, reroutes, and other advisories are not comprehensively covered.",
   "unmappedAirspacePrograms": 0,
-  "airports": []
+  "airports": [
+    {
+      "code": "YYZ",
+      "name": "Toronto Pearson International Airport",
+      "events": [
+        {
+          "type": "Ground stop",
+          "reason": "equipment outage",
+          "start": "2026-10-21T00:24:00Z",
+          "end": "2026-10-21T02:30:00Z",
+          "averageDelayMinutes": null,
+          "maximumDelayMinutes": null,
+          "updatedAt": "2026-10-21T01:23:57Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=6003&adv_date=10212026&facId=YYZ&title=ATCSCC ADVZY 003 CYYZ/CZY 10/21/2026 CDM GROUND STOP&titleDate=10/21/2026"
+        }
+      ]
+    }
+  ]
 }
