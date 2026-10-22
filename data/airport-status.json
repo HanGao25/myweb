@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-10-22T00:34:26.088104+00:00",
+  "fetchedAt": "2026-10-22T05:17:03.453843+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -39,64 +39,5 @@
   ],
   "coverage": "Active ground stops, ground delay programs, airport-wide closures, and airport-linked airspace flow programs. Excludes routine delays and GA-only notices. Regional AFPs, CTOPs, reroutes, and other advisories are not comprehensively covered.",
   "unmappedAirspacePrograms": 0,
-  "airports": [
-    {
-      "code": "BOS",
-      "name": "General Edward Lawrence Logan International",
-      "events": [
-        {
-          "type": "Ground stop",
-          "reason": "runway construction",
-          "start": "2026-10-21T23:36:00Z",
-          "end": "2026-10-22T01:00:00Z",
-          "averageDelayMinutes": null,
-          "maximumDelayMinutes": null,
-          "updatedAt": "2026-10-21T23:49:30Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=79&adv_date=10212026&facId=BOS&title=ATCSCC ADVZY 079 BOS/ZBW 10/21/2026 CDM GROUND STOP&titleDate=10/21/2026"
-        },
-        {
-          "type": "Ground delay program",
-          "reason": "runway construction",
-          "start": "2026-10-21T17:00:00Z",
-          "end": "2026-10-22T03:59:00Z",
-          "averageDelayMinutes": 55.0,
-          "maximumDelayMinutes": 279,
-          "updatedAt": "2026-10-21T11:34:53Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=21&adv_date=10212026&facId=BOS&title=ATCSCC ADVZY 021 BOS/ZBW 10/21/2026 CDM GROUND DELAY PROGRAM&titleDate=10/21/2026"
-        }
-      ]
-    },
-    {
-      "code": "LAS",
-      "name": "Harry Reid International",
-      "events": [
-        {
-          "type": "Ground delay program",
-          "reason": "other",
-          "start": "2026-10-22T00:00:00Z",
-          "end": "2026-10-22T04:59:00Z",
-          "averageDelayMinutes": 46.0,
-          "maximumDelayMinutes": 118,
-          "updatedAt": "2026-10-21T23:33:24Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=77&adv_date=10212026&facId=LAS&title=ATCSCC ADVZY 077 LAS/ZLA 10/21/2026 CDM GROUND DELAY PROGRAM&titleDate=10/21/2026"
-        }
-      ]
-    },
-    {
-      "code": "YYC",
-      "name": "Calgary International Airport",
-      "events": [
-        {
-          "type": "Ground delay program",
-          "reason": "runway construction",
-          "start": "2026-10-21T23:45:00Z",
-          "end": "2026-10-22T04:59:00Z",
-          "averageDelayMinutes": 32.0,
-          "maximumDelayMinutes": 72,
-          "updatedAt": "2026-10-21T21:32:04Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=6018&adv_date=10212026&facId=YYC&title=ATCSCC ADVZY 018 CYYC/CZE 10/21/2026 CDM GROUND DELAY PROGRAM&titleDate=10/21/2026"
-        }
-      ]
-    }
-  ]
+  "airports": []
 }
