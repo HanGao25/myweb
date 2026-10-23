@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-10-23T16:55:40.552461+00:00",
+  "fetchedAt": "2026-10-23T20:17:43.329611+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -41,22 +41,6 @@
   "unmappedAirspacePrograms": 0,
   "airports": [
     {
-      "code": "DEN",
-      "name": "Denver International",
-      "events": [
-        {
-          "type": "Ground stop",
-          "reason": "wind",
-          "start": "2026-10-23T16:30:00Z",
-          "end": "2026-10-23T17:45:00Z",
-          "averageDelayMinutes": null,
-          "maximumDelayMinutes": null,
-          "updatedAt": "2026-10-23T16:32:35Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=64&adv_date=10232026&facId=DEN&title=ATCSCC ADVZY 064 DEN/ZDV 10/23/2026 CDM GROUND STOP&titleDate=10/23/2026"
-        }
-      ]
-    },
-    {
       "code": "SFO",
       "name": "San Francisco International",
       "events": [
@@ -69,6 +53,22 @@
           "maximumDelayMinutes": 122,
           "updatedAt": "2026-10-23T12:24:19Z",
           "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=32&adv_date=10232026&facId=SFO&title=ATCSCC ADVZY 032 SFO/ZOA 10/23/2026 CDM GROUND DELAY PROGRAM&titleDate=10/23/2026"
+        }
+      ]
+    },
+    {
+      "code": "YUL",
+      "name": "Montréal-Pierre Elliott Trudeau International Airport",
+      "events": [
+        {
+          "type": "Ground delay program",
+          "reason": "runway construction",
+          "start": "2026-10-23T19:15:00Z",
+          "end": "2026-10-24T00:29:00Z",
+          "averageDelayMinutes": 26.0,
+          "maximumDelayMinutes": 62,
+          "updatedAt": "2026-10-23T16:42:14Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=6012&adv_date=10232026&facId=YUL&title=ATCSCC ADVZY 012 CYUL/CZU 10/23/2026 CDM GROUND DELAY PROGRAM&titleDate=10/23/2026"
         }
       ]
     }
