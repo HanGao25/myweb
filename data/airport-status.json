@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-10-22T22:39:54.110652+00:00",
+  "fetchedAt": "2026-10-23T01:23:16.929754+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -41,6 +41,48 @@
   "unmappedAirspacePrograms": 0,
   "airports": [
     {
+      "code": "DEN",
+      "name": "Denver International",
+      "events": [
+        {
+          "type": "Ground stop",
+          "reason": "runway construction",
+          "start": "2026-10-23T00:54:00Z",
+          "end": "2026-10-23T02:15:00Z",
+          "averageDelayMinutes": null,
+          "maximumDelayMinutes": null,
+          "updatedAt": "2026-10-23T01:12:20Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=5&adv_date=10232026&facId=DEN&title=ATCSCC ADVZY 005 DEN/ZDV 10/23/2026 CDM GROUND STOP&titleDate=10/23/2026"
+        },
+        {
+          "type": "Ground delay program",
+          "reason": "runway construction",
+          "start": "2026-10-22T22:30:00Z",
+          "end": "2026-10-23T02:59:00Z",
+          "averageDelayMinutes": 48.0,
+          "maximumDelayMinutes": 115,
+          "updatedAt": "2026-10-22T22:38:45Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=90&adv_date=10222026&facId=DEN&title=ATCSCC ADVZY 090 DEN/ZDV 10/22/2026 CDM GROUND DELAY PROGRAM&titleDate=10/22/2026"
+        }
+      ]
+    },
+    {
+      "code": "EWR",
+      "name": "Newark International",
+      "events": [
+        {
+          "type": "Ground stop",
+          "reason": "STAFFING",
+          "start": "2026-10-23T00:00:00Z",
+          "end": "2026-10-23T01:45:00Z",
+          "averageDelayMinutes": null,
+          "maximumDelayMinutes": null,
+          "updatedAt": "2026-10-23T00:14:14Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=2&adv_date=10232026&facId=EWR&title=ATCSCC ADVZY 002 EWR/ZNY 10/23/2026 CDM GROUND STOP&titleDate=10/23/2026"
+        }
+      ]
+    },
+    {
       "code": "LAS",
       "name": "Harry Reid International",
       "events": [
@@ -69,22 +111,6 @@
           "maximumDelayMinutes": 159,
           "updatedAt": "2026-10-22T12:42:17Z",
           "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=28&adv_date=10222026&facId=SFO&title=ATCSCC ADVZY 028 SFO/ZOA 10/22/2026 CDM GROUND DELAY PROGRAM&titleDate=10/22/2026"
-        }
-      ]
-    },
-    {
-      "code": "YUL",
-      "name": "Montréal-Pierre Elliott Trudeau International Airport",
-      "events": [
-        {
-          "type": "Ground delay program",
-          "reason": "runway construction",
-          "start": "2026-10-22T19:30:00Z",
-          "end": "2026-10-22T23:29:00Z",
-          "averageDelayMinutes": 14.0,
-          "maximumDelayMinutes": 29,
-          "updatedAt": "2026-10-22T16:43:35Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=6009&adv_date=10222026&facId=YUL&title=ATCSCC ADVZY 009 CYUL/CZU 10/22/2026 CDM GROUND DELAY PROGRAM&titleDate=10/22/2026"
         }
       ]
     }
