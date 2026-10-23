@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-10-23T20:17:43.329611+00:00",
+  "fetchedAt": "2026-10-23T23:23:55.531876+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -41,18 +41,18 @@
   "unmappedAirspacePrograms": 0,
   "airports": [
     {
-      "code": "SFO",
-      "name": "San Francisco International",
+      "code": "DEN",
+      "name": "Denver International",
       "events": [
         {
           "type": "Ground delay program",
-          "reason": "low ceilings",
-          "start": "2026-10-23T15:00:00Z",
-          "end": "2026-10-23T22:59:00Z",
-          "averageDelayMinutes": 57.0,
-          "maximumDelayMinutes": 122,
-          "updatedAt": "2026-10-23T12:24:19Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=32&adv_date=10232026&facId=SFO&title=ATCSCC ADVZY 032 SFO/ZOA 10/23/2026 CDM GROUND DELAY PROGRAM&titleDate=10/23/2026"
+          "reason": "runway construction",
+          "start": "2026-10-23T22:00:00Z",
+          "end": "2026-10-24T03:59:00Z",
+          "averageDelayMinutes": 66.0,
+          "maximumDelayMinutes": 146,
+          "updatedAt": "2026-10-23T19:47:32Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=79&adv_date=10232026&facId=DEN&title=ATCSCC ADVZY 079 DEN/ZDV 10/23/2026 CDM GROUND DELAY PROGRAM&titleDate=10/23/2026"
         }
       ]
     },
