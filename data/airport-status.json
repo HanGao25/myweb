@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-10-23T06:25:48.903188+00:00",
+  "fetchedAt": "2026-10-23T11:58:09.095890+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -39,22 +39,5 @@
   ],
   "coverage": "Active ground stops, ground delay programs, airport-wide closures, and airport-linked airspace flow programs. Excludes routine delays and GA-only notices. Regional AFPs, CTOPs, reroutes, and other advisories are not comprehensively covered.",
   "unmappedAirspacePrograms": 0,
-  "airports": [
-    {
-      "code": "LAS",
-      "name": "Harry Reid International",
-      "events": [
-        {
-          "type": "Ground delay program",
-          "reason": "rain",
-          "start": "2026-10-22T21:00:00Z",
-          "end": "2026-10-23T07:59:00Z",
-          "averageDelayMinutes": 97.0,
-          "maximumDelayMinutes": 570,
-          "updatedAt": "2026-10-22T21:06:30Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=79&adv_date=10222026&facId=LAS&title=ATCSCC ADVZY 079 LAS/ZLA 10/22/2026 CDM GROUND DELAY PROGRAM&titleDate=10/22/2026"
-        }
-      ]
-    }
-  ]
+  "airports": []
 }
