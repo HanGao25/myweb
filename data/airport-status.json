@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-10-24T01:54:21.770774+00:00",
+  "fetchedAt": "2026-10-24T07:09:28.806908+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -41,18 +41,18 @@
   "unmappedAirspacePrograms": 0,
   "airports": [
     {
-      "code": "DEN",
-      "name": "Denver International",
+      "code": "LGA",
+      "name": "La Guardia",
       "events": [
         {
-          "type": "Ground delay program",
-          "reason": "runway construction",
-          "start": "2026-10-23T22:00:00Z",
-          "end": "2026-10-24T03:59:00Z",
-          "averageDelayMinutes": 66.0,
-          "maximumDelayMinutes": 146,
-          "updatedAt": "2026-10-23T19:47:32Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=79&adv_date=10232026&facId=DEN&title=ATCSCC ADVZY 079 DEN/ZDV 10/23/2026 CDM GROUND DELAY PROGRAM&titleDate=10/23/2026"
+          "type": "Airport closure",
+          "reason": "!LGA 10/301 LGA AD AP CLSD EXC 30MIN \rPPR 718-533-3700 2610240402-2610241000",
+          "start": "2026-10-24T04:02:00Z",
+          "end": "2026-10-24T10:00:00Z",
+          "averageDelayMinutes": null,
+          "maximumDelayMinutes": null,
+          "updatedAt": "2026-10-24T04:05:14Z",
+          "advisoryUrl": null
         }
       ]
     }
