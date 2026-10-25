@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-10-25T06:41:51.647605+00:00",
+  "fetchedAt": "2026-10-25T12:29:00.470117+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
