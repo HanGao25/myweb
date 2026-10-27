@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-10-27T06:09:21.747092+00:00",
+  "fetchedAt": "2026-10-27T12:36:19.135213+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -39,22 +39,5 @@
   ],
   "coverage": "Active ground stops, ground delay programs, airport-wide closures, and airport-linked airspace flow programs. Excludes routine delays and GA-only notices. Regional AFPs, CTOPs, reroutes, and other advisories are not comprehensively covered.",
   "unmappedAirspacePrograms": 0,
-  "airports": [
-    {
-      "code": "DEN",
-      "name": "Denver International",
-      "events": [
-        {
-          "type": "Ground delay program",
-          "reason": "other",
-          "start": "2026-10-27T06:00:00Z",
-          "end": "2026-10-27T09:59:00Z",
-          "averageDelayMinutes": 50.0,
-          "maximumDelayMinutes": 135,
-          "updatedAt": "2026-10-27T06:06:39Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=26&adv_date=10272026&facId=DEN&title=ATCSCC ADVZY 026 DEN/ZDV 10/27/2026 CDM GROUND DELAY PROGRAM&titleDate=10/27/2026"
-        }
-      ]
-    }
-  ]
+  "airports": []
 }
