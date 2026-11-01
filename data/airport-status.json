@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-11-01T19:05:58.682957+00:00",
+  "fetchedAt": "2026-11-01T22:43:36.447374+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -41,18 +41,18 @@
   "unmappedAirspacePrograms": 0,
   "airports": [
     {
-      "code": "PHX",
-      "name": "Phoenix Sky Harbor International",
+      "code": "LAS",
+      "name": "Harry Reid International",
       "events": [
         {
           "type": "Ground stop",
-          "reason": "airspace volume",
-          "start": "2026-11-01T18:48:00Z",
-          "end": "2026-11-01T19:45:00Z",
+          "reason": "wind",
+          "start": "2026-11-01T21:13:00Z",
+          "end": "2026-11-01T23:00:00Z",
           "averageDelayMinutes": null,
           "maximumDelayMinutes": null,
-          "updatedAt": "2026-11-01T19:03:35Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=112&adv_date=11012026&facId=PHX&title=ATCSCC ADVZY 112 PHX/ZAB 11/01/2026 CDM GROUND STOP&titleDate=11/01/2026"
+          "updatedAt": "2026-11-01T21:59:54Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=132&adv_date=11012026&facId=LAS&title=ATCSCC ADVZY 132 LAS/ZLA 11/01/2026 CDM GROUND STOP&titleDate=11/01/2026"
         }
       ]
     }
