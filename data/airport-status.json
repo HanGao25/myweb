@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-11-01T14:13:09.008403+00:00",
+  "fetchedAt": "2026-11-01T19:05:58.682957+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -39,5 +39,22 @@
   ],
   "coverage": "Active ground stops, ground delay programs, airport-wide closures, and airport-linked airspace flow programs. Excludes routine delays and GA-only notices. Regional AFPs, CTOPs, reroutes, and other advisories are not comprehensively covered.",
   "unmappedAirspacePrograms": 0,
-  "airports": []
+  "airports": [
+    {
+      "code": "PHX",
+      "name": "Phoenix Sky Harbor International",
+      "events": [
+        {
+          "type": "Ground stop",
+          "reason": "airspace volume",
+          "start": "2026-11-01T18:48:00Z",
+          "end": "2026-11-01T19:45:00Z",
+          "averageDelayMinutes": null,
+          "maximumDelayMinutes": null,
+          "updatedAt": "2026-11-01T19:03:35Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=112&adv_date=11012026&facId=PHX&title=ATCSCC ADVZY 112 PHX/ZAB 11/01/2026 CDM GROUND STOP&titleDate=11/01/2026"
+        }
+      ]
+    }
+  ]
 }
