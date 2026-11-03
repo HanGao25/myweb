@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-11-02T20:12:45.665262+00:00",
+  "fetchedAt": "2026-11-03T02:35:00.127785+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -38,6 +38,23 @@
     "YYZ"
   ],
   "coverage": "Active ground stops, ground delay programs, airport-wide closures, and airport-linked airspace flow programs. Excludes routine delays and GA-only notices. Regional AFPs, CTOPs, reroutes, and other advisories are not comprehensively covered.",
-  "unmappedAirspacePrograms": 1,
-  "airports": []
+  "unmappedAirspacePrograms": 0,
+  "airports": [
+    {
+      "code": "MIA",
+      "name": "Miami International",
+      "events": [
+        {
+          "type": "Ground delay program",
+          "reason": "thunderstorms",
+          "start": "2026-11-02T22:45:00Z",
+          "end": "2026-11-03T03:59:00Z",
+          "averageDelayMinutes": 146.0,
+          "maximumDelayMinutes": 450,
+          "updatedAt": "2026-11-02T23:56:46Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=117&adv_date=11022026&facId=MIA&title=ATCSCC ADVZY 117 MIA/ZMA 11/02/2026 CDM GROUND DELAY PROGRAM&titleDate=11/02/2026"
+        }
+      ]
+    }
+  ]
 }
