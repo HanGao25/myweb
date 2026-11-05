@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-11-04T18:48:15.836071+00:00",
+  "fetchedAt": "2026-11-05T00:17:35.138552+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -38,6 +38,6 @@
     "YYZ"
   ],
   "coverage": "Active ground stops, ground delay programs, airport-wide closures, and airport-linked airspace flow programs. Excludes routine delays and GA-only notices. Regional AFPs, CTOPs, reroutes, and other advisories are not comprehensively covered.",
-  "unmappedAirspacePrograms": 0,
+  "unmappedAirspacePrograms": 1,
   "airports": []
 }
