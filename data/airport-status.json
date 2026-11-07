@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-11-06T22:18:44.023357+00:00",
+  "fetchedAt": "2026-11-07T02:17:27.251969+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -41,22 +41,6 @@
   "unmappedAirspacePrograms": 0,
   "airports": [
     {
-      "code": "BOS",
-      "name": "General Edward Lawrence Logan International",
-      "events": [
-        {
-          "type": "Ground delay program",
-          "reason": "thunderstorms",
-          "start": "2026-11-06T18:38:00Z",
-          "end": "2026-11-07T04:29:00Z",
-          "averageDelayMinutes": 144.0,
-          "maximumDelayMinutes": 728,
-          "updatedAt": "2026-11-06T18:41:32Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=90&adv_date=11062026&facId=BOS&title=ATCSCC ADVZY 090 BOS/ZBW 11/06/2026 CDM GROUND DELAY PROGRAM&titleDate=11/06/2026"
-        }
-      ]
-    },
-    {
       "code": "EWR",
       "name": "Newark International",
       "events": [
@@ -69,22 +53,6 @@
           "maximumDelayMinutes": 569,
           "updatedAt": "2026-11-06T20:47:52Z",
           "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=111&adv_date=11062026&facId=EWR&title=ATCSCC ADVZY 111 EWR/ZNY 11/06/2026 CDM GROUND DELAY PROGRAM&titleDate=11/06/2026"
-        }
-      ]
-    },
-    {
-      "code": "LGA",
-      "name": "La Guardia",
-      "events": [
-        {
-          "type": "Ground delay program",
-          "reason": "thunderstorms",
-          "start": "2026-11-06T21:45:00Z",
-          "end": "2026-11-07T03:59:00Z",
-          "averageDelayMinutes": 174.0,
-          "maximumDelayMinutes": 544,
-          "updatedAt": "2026-11-06T21:53:30Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=118&adv_date=11062026&facId=LGA&title=ATCSCC ADVZY 118 LGA/ZNY 11/06/2026 CDM GROUND DELAY PROGRAM&titleDate=11/06/2026"
         }
       ]
     }
