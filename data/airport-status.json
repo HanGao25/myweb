@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-11-07T20:07:43.655048+00:00",
+  "fetchedAt": "2026-11-07T23:51:49.357725+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -39,38 +39,5 @@
   ],
   "coverage": "Active ground stops, ground delay programs, airport-wide closures, and airport-linked airspace flow programs. Excludes routine delays and GA-only notices. Regional AFPs, CTOPs, reroutes, and other advisories are not comprehensively covered.",
   "unmappedAirspacePrograms": 0,
-  "airports": [
-    {
-      "code": "BOS",
-      "name": "General Edward Lawrence Logan International",
-      "events": [
-        {
-          "type": "Ground delay program",
-          "reason": "runway construction",
-          "start": "2026-11-07T19:00:00Z",
-          "end": "2026-11-08T04:59:00Z",
-          "averageDelayMinutes": 148.0,
-          "maximumDelayMinutes": 399,
-          "updatedAt": "2026-11-07T19:41:47Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=70&adv_date=11072026&facId=BOS&title=ATCSCC ADVZY 070 BOS/ZBW 11/07/2026 CDM GROUND DELAY PROGRAM&titleDate=11/07/2026"
-        }
-      ]
-    },
-    {
-      "code": "LGA",
-      "name": "La Guardia",
-      "events": [
-        {
-          "type": "Ground stop",
-          "reason": "wind",
-          "start": "2026-11-07T19:02:00Z",
-          "end": "2026-11-07T20:30:00Z",
-          "averageDelayMinutes": null,
-          "maximumDelayMinutes": null,
-          "updatedAt": "2026-11-07T19:17:26Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=67&adv_date=11072026&facId=LGA&title=ATCSCC ADVZY 067 LGA/ZNY 11/07/2026 CDM GROUND STOP&titleDate=11/07/2026"
-        }
-      ]
-    }
-  ]
+  "airports": []
 }
