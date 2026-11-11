@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-11-11T13:59:53.453167+00:00",
+  "fetchedAt": "2026-11-11T21:13:46.128215+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -38,6 +38,39 @@
     "YYZ"
   ],
   "coverage": "Active ground stops, ground delay programs, airport-wide closures, and airport-linked airspace flow programs. Excludes routine delays and GA-only notices. Regional AFPs, CTOPs, reroutes, and other advisories are not comprehensively covered.",
-  "unmappedAirspacePrograms": 0,
-  "airports": []
+  "unmappedAirspacePrograms": 1,
+  "airports": [
+    {
+      "code": "BOS",
+      "name": "General Edward Lawrence Logan International",
+      "events": [
+        {
+          "type": "Ground delay program",
+          "reason": "runway construction",
+          "start": "2026-11-11T18:00:00Z",
+          "end": "2026-11-12T00:59:00Z",
+          "averageDelayMinutes": 20.0,
+          "maximumDelayMinutes": 64,
+          "updatedAt": "2026-11-11T15:13:51Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=34&adv_date=11112026&facId=BOS&title=ATCSCC ADVZY 034 BOS/ZBW 11/11/2026 CDM GROUND DELAY PROGRAM&titleDate=11/11/2026"
+        }
+      ]
+    },
+    {
+      "code": "ORD",
+      "name": "Chicago OHare International",
+      "events": [
+        {
+          "type": "Ground delay program",
+          "reason": "thunderstorms",
+          "start": "2026-11-11T20:42:00Z",
+          "end": "2026-11-12T01:59:00Z",
+          "averageDelayMinutes": 51.0,
+          "maximumDelayMinutes": 206,
+          "updatedAt": "2026-11-11T21:09:18Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=60&adv_date=11112026&facId=ORD&title=ATCSCC ADVZY 060 ORD/ZAU 11/11/2026 CDM GROUND DELAY PROGRAM&titleDate=11/11/2026"
+        }
+      ]
+    }
+  ]
 }
