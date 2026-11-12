@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-11-12T18:32:30.694236+00:00",
+  "fetchedAt": "2026-11-12T23:49:21.412802+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -61,14 +61,14 @@
       "name": "Newark International",
       "events": [
         {
-          "type": "Ground stop",
+          "type": "Ground delay program",
           "reason": "thunderstorms",
-          "start": "2026-11-12T17:08:00Z",
-          "end": "2026-11-12T18:45:00Z",
-          "averageDelayMinutes": null,
-          "maximumDelayMinutes": null,
-          "updatedAt": "2026-11-12T17:23:05Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=57&adv_date=11122026&facId=EWR&title=ATCSCC ADVZY 057 EWR/ZNY 11/12/2026 CDM GROUND STOP&titleDate=11/12/2026"
+          "start": "2026-11-12T21:26:00Z",
+          "end": "2026-11-13T04:59:00Z",
+          "averageDelayMinutes": 187.0,
+          "maximumDelayMinutes": 508,
+          "updatedAt": "2026-11-12T21:27:22Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=122&adv_date=11122026&facId=EWR&title=ATCSCC ADVZY 122 EWR/ZNY 11/12/2026 CDM GROUND DELAY PROGRAM&titleDate=11/12/2026"
         }
       ]
     },
@@ -79,12 +79,22 @@
         {
           "type": "Ground stop",
           "reason": "thunderstorms",
-          "start": "2026-11-12T17:59:00Z",
-          "end": "2026-11-12T19:30:00Z",
+          "start": "2026-11-12T21:34:00Z",
+          "end": "2026-11-13T01:00:00Z",
           "averageDelayMinutes": null,
           "maximumDelayMinutes": null,
-          "updatedAt": "2026-11-12T18:09:37Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=68&adv_date=11122026&facId=JFK&title=ATCSCC ADVZY 068 JFK/ZNY 11/12/2026 CDM GROUND STOP&titleDate=11/12/2026"
+          "updatedAt": "2026-11-12T23:46:50Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=161&adv_date=11122026&facId=JFK&title=ATCSCC ADVZY 161 JFK/ZNY 11/12/2026 CDM GROUND STOP&titleDate=11/12/2026"
+        },
+        {
+          "type": "Ground delay program",
+          "reason": "thunderstorms",
+          "start": "2026-11-12T20:38:00Z",
+          "end": "2026-11-13T04:59:00Z",
+          "averageDelayMinutes": 246.0,
+          "maximumDelayMinutes": 500,
+          "updatedAt": "2026-11-12T20:41:54Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=108&adv_date=11122026&facId=JFK&title=ATCSCC ADVZY 108 JFK/ZNY 11/12/2026 CDM GROUND DELAY PROGRAM&titleDate=11/12/2026"
         }
       ]
     },
@@ -93,40 +103,14 @@
       "name": "La Guardia",
       "events": [
         {
-          "type": "Ground stop",
-          "reason": "thunderstorms",
-          "start": "2026-11-12T17:04:00Z",
-          "end": "2026-11-12T18:45:00Z",
-          "averageDelayMinutes": null,
-          "maximumDelayMinutes": null,
-          "updatedAt": "2026-11-12T17:28:34Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=59&adv_date=11122026&facId=LGA&title=ATCSCC ADVZY 059 LGA/ZNY 11/12/2026 CDM GROUND STOP&titleDate=11/12/2026"
-        },
-        {
           "type": "Ground delay program",
           "reason": "thunderstorms",
-          "start": "2026-11-12T18:00:00Z",
+          "start": "2026-11-12T22:14:00Z",
           "end": "2026-11-13T04:59:00Z",
-          "averageDelayMinutes": 63.0,
-          "maximumDelayMinutes": 150,
-          "updatedAt": "2026-11-12T16:35:06Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=51&adv_date=11122026&facId=LGA&title=ATCSCC ADVZY 051 LGA/ZNY 11/12/2026 CDM GROUND DELAY PROGRAM&titleDate=11/12/2026"
-        }
-      ]
-    },
-    {
-      "code": "PHL",
-      "name": "Philadelphia International",
-      "events": [
-        {
-          "type": "Ground stop",
-          "reason": "thunderstorms",
-          "start": "2026-11-12T17:52:00Z",
-          "end": "2026-11-12T19:15:00Z",
-          "averageDelayMinutes": null,
-          "maximumDelayMinutes": null,
-          "updatedAt": "2026-11-12T18:05:49Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=66&adv_date=11122026&facId=PHL&title=ATCSCC ADVZY 066 PHL/ZNY 11/12/2026 CDM GROUND STOP&titleDate=11/12/2026"
+          "averageDelayMinutes": 144.0,
+          "maximumDelayMinutes": 416,
+          "updatedAt": "2026-11-12T23:22:55Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=157&adv_date=11122026&facId=LGA&title=ATCSCC ADVZY 157 LGA/ZNY 11/12/2026 CDM GROUND DELAY PROGRAM&titleDate=11/12/2026"
         }
       ]
     }
