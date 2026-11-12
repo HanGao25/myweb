@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-11-12T02:27:38.131997+00:00",
+  "fetchedAt": "2026-11-12T10:10:14.066678+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -39,22 +39,5 @@
   ],
   "coverage": "Active ground stops, ground delay programs, airport-wide closures, and airport-linked airspace flow programs. Excludes routine delays and GA-only notices. Regional AFPs, CTOPs, reroutes, and other advisories are not comprehensively covered.",
   "unmappedAirspacePrograms": 0,
-  "airports": [
-    {
-      "code": "SEA",
-      "name": "Seattle-Tacoma International",
-      "events": [
-        {
-          "type": "Ground delay program",
-          "reason": "other",
-          "start": "2026-11-12T02:00:00Z",
-          "end": "2026-11-12T05:59:00Z",
-          "averageDelayMinutes": 32.0,
-          "maximumDelayMinutes": 82,
-          "updatedAt": "2026-11-12T00:04:46Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=1&adv_date=11122026&facId=SEA&title=ATCSCC ADVZY 001 SEA/ZSE 11/12/2026 CDM GROUND DELAY PROGRAM&titleDate=11/12/2026"
-        }
-      ]
-    }
-  ]
+  "airports": []
 }
