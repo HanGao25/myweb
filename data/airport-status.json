@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-11-13T21:21:58.397090+00:00",
+  "fetchedAt": "2026-11-14T01:40:24.198284+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -69,22 +69,6 @@
           "maximumDelayMinutes": 166,
           "updatedAt": "2026-11-13T16:48:51Z",
           "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=82&adv_date=11132026&facId=LGA&title=ATCSCC ADVZY 082 LGA/ZNY 11/13/2026 CDM GROUND DELAY PROGRAM&titleDate=11/13/2026"
-        }
-      ]
-    },
-    {
-      "code": "ORD",
-      "name": "Chicago OHare International",
-      "events": [
-        {
-          "type": "Ground stop",
-          "reason": "equipment outage",
-          "start": "2026-11-13T20:10:00Z",
-          "end": "2026-11-13T21:30:00Z",
-          "averageDelayMinutes": null,
-          "maximumDelayMinutes": null,
-          "updatedAt": "2026-11-13T20:27:26Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=107&adv_date=11132026&facId=ORD&title=ATCSCC ADVZY 107 ORD/ZAU 11/13/2026 CDM GROUND STOP&titleDate=11/13/2026"
         }
       ]
     },
