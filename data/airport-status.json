@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-11-14T01:40:24.198284+00:00",
+  "fetchedAt": "2026-11-14T08:51:59.221467+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -39,54 +39,5 @@
   ],
   "coverage": "Active ground stops, ground delay programs, airport-wide closures, and airport-linked airspace flow programs. Excludes routine delays and GA-only notices. Regional AFPs, CTOPs, reroutes, and other advisories are not comprehensively covered.",
   "unmappedAirspacePrograms": 0,
-  "airports": [
-    {
-      "code": "BOS",
-      "name": "General Edward Lawrence Logan International",
-      "events": [
-        {
-          "type": "Ground delay program",
-          "reason": "airport volume",
-          "start": "2026-11-13T18:00:00Z",
-          "end": "2026-11-14T02:59:00Z",
-          "averageDelayMinutes": 26.0,
-          "maximumDelayMinutes": 103,
-          "updatedAt": "2026-11-13T16:30:57Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=79&adv_date=11132026&facId=BOS&title=ATCSCC ADVZY 079 BOS/ZBW 11/13/2026 CDM GROUND DELAY PROGRAM&titleDate=11/13/2026"
-        }
-      ]
-    },
-    {
-      "code": "LGA",
-      "name": "La Guardia",
-      "events": [
-        {
-          "type": "Ground delay program",
-          "reason": "wind",
-          "start": "2026-11-13T16:44:00Z",
-          "end": "2026-11-14T03:59:00Z",
-          "averageDelayMinutes": 45.0,
-          "maximumDelayMinutes": 166,
-          "updatedAt": "2026-11-13T16:48:51Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=82&adv_date=11132026&facId=LGA&title=ATCSCC ADVZY 082 LGA/ZNY 11/13/2026 CDM GROUND DELAY PROGRAM&titleDate=11/13/2026"
-        }
-      ]
-    },
-    {
-      "code": "SFO",
-      "name": "San Francisco International",
-      "events": [
-        {
-          "type": "Ground delay program",
-          "reason": "wind",
-          "start": "2026-11-13T18:45:00Z",
-          "end": "2026-11-14T07:59:00Z",
-          "averageDelayMinutes": 138.0,
-          "maximumDelayMinutes": 690,
-          "updatedAt": "2026-11-13T19:47:21Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=99&adv_date=11132026&facId=SFO&title=ATCSCC ADVZY 099 SFO/ZOA 11/13/2026 CDM GROUND DELAY PROGRAM&titleDate=11/13/2026"
-        }
-      ]
-    }
-  ]
+  "airports": []
 }
