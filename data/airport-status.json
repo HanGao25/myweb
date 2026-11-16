@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-11-16T07:10:09.813970+00:00",
+  "fetchedAt": "2026-11-16T17:20:44.021112+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -47,12 +47,12 @@
         {
           "type": "Ground delay program",
           "reason": "low ceilings",
-          "start": "2026-11-16T05:00:00Z",
-          "end": "2026-11-16T07:59:00Z",
-          "averageDelayMinutes": 166.0,
-          "maximumDelayMinutes": 895,
-          "updatedAt": "2026-11-16T04:11:31Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=13&adv_date=11162026&facId=SFO&title=ATCSCC ADVZY 013 SFO/ZOA 11/16/2026 CDM GROUND DELAY PROGRAM&titleDate=11/16/2026"
+          "start": "2026-11-16T16:00:00Z",
+          "end": "2026-11-17T03:59:00Z",
+          "averageDelayMinutes": 65.0,
+          "maximumDelayMinutes": 148,
+          "updatedAt": "2026-11-16T14:26:52Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=31&adv_date=11162026&facId=SFO&title=ATCSCC ADVZY 031 SFO/ZOA 11/16/2026 CDM GROUND DELAY PROGRAM&titleDate=11/16/2026"
         }
       ]
     }
