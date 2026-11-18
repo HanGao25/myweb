@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-11-18T09:01:23.970768+00:00",
+  "fetchedAt": "2026-11-18T17:56:20.496253+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -39,5 +39,22 @@
   ],
   "coverage": "Active ground stops, ground delay programs, airport-wide closures, and airport-linked airspace flow programs. Excludes routine delays and GA-only notices. Regional AFPs, CTOPs, reroutes, and other advisories are not comprehensively covered.",
   "unmappedAirspacePrograms": 0,
-  "airports": []
+  "airports": [
+    {
+      "code": "SFO",
+      "name": "San Francisco International",
+      "events": [
+        {
+          "type": "Ground stop",
+          "reason": "wind",
+          "start": "2026-11-18T17:20:00Z",
+          "end": "2026-11-18T18:45:00Z",
+          "averageDelayMinutes": null,
+          "maximumDelayMinutes": null,
+          "updatedAt": "2026-11-18T17:34:20Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=51&adv_date=11182026&facId=SFO&title=ATCSCC ADVZY 051 SFO/ZOA 11/18/2026 CDM GROUND STOP&titleDate=11/18/2026"
+        }
+      ]
+    }
+  ]
 }
