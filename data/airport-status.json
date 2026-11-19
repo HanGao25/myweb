@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-11-18T17:56:20.496253+00:00",
+  "fetchedAt": "2026-11-19T00:12:23.514813+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -45,14 +45,14 @@
       "name": "San Francisco International",
       "events": [
         {
-          "type": "Ground stop",
+          "type": "Ground delay program",
           "reason": "wind",
-          "start": "2026-11-18T17:20:00Z",
-          "end": "2026-11-18T18:45:00Z",
-          "averageDelayMinutes": null,
-          "maximumDelayMinutes": null,
-          "updatedAt": "2026-11-18T17:34:20Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=51&adv_date=11182026&facId=SFO&title=ATCSCC ADVZY 051 SFO/ZOA 11/18/2026 CDM GROUND STOP&titleDate=11/18/2026"
+          "start": "2026-11-18T19:45:00Z",
+          "end": "2026-11-19T07:59:00Z",
+          "averageDelayMinutes": 186.0,
+          "maximumDelayMinutes": 658,
+          "updatedAt": "2026-11-18T19:45:19Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=66&adv_date=11182026&facId=SFO&title=ATCSCC ADVZY 066 SFO/ZOA 11/18/2026 CDM GROUND DELAY PROGRAM&titleDate=11/18/2026"
         }
       ]
     }
