@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-11-21T11:39:21.659594+00:00",
+  "fetchedAt": "2026-11-21T19:03:19.056979+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -38,6 +38,39 @@
     "YYZ"
   ],
   "coverage": "Active ground stops, ground delay programs, airport-wide closures, and airport-linked airspace flow programs. Excludes routine delays and GA-only notices. Regional AFPs, CTOPs, reroutes, and other advisories are not comprehensively covered.",
-  "unmappedAirspacePrograms": 0,
-  "airports": []
+  "unmappedAirspacePrograms": 1,
+  "airports": [
+    {
+      "code": "MIA",
+      "name": "Miami International",
+      "events": [
+        {
+          "type": "Ground stop",
+          "reason": "thunderstorms",
+          "start": "2026-11-21T18:38:00Z",
+          "end": "2026-11-21T20:00:00Z",
+          "averageDelayMinutes": null,
+          "maximumDelayMinutes": null,
+          "updatedAt": "2026-11-21T18:50:06Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=83&adv_date=11212026&facId=MIA&title=ATCSCC ADVZY 083 MIA/ZMA 11/21/2026 CDM GROUND STOP&titleDate=11/21/2026"
+        }
+      ]
+    },
+    {
+      "code": "YVR",
+      "name": "Vancouver International Airport",
+      "events": [
+        {
+          "type": "Ground delay program",
+          "reason": "airport volume",
+          "start": "2026-11-21T19:00:00Z",
+          "end": "2026-11-21T19:44:00Z",
+          "averageDelayMinutes": 20.0,
+          "maximumDelayMinutes": 38,
+          "updatedAt": "2026-11-21T17:33:57Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=6018&adv_date=11212026&facId=YVR&title=ATCSCC ADVZY 018 CYVR/CZV 11/21/2026 CDM GROUND DELAY PROGRAM&titleDate=11/21/2026"
+        }
+      ]
+    }
+  ]
 }
