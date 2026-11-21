@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-11-20T22:35:26.684594+00:00",
+  "fetchedAt": "2026-11-21T03:25:18.938212+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -39,5 +39,22 @@
   ],
   "coverage": "Active ground stops, ground delay programs, airport-wide closures, and airport-linked airspace flow programs. Excludes routine delays and GA-only notices. Regional AFPs, CTOPs, reroutes, and other advisories are not comprehensively covered.",
   "unmappedAirspacePrograms": 0,
-  "airports": []
+  "airports": [
+    {
+      "code": "ORD",
+      "name": "Chicago OHare International",
+      "events": [
+        {
+          "type": "Ground delay program",
+          "reason": "other",
+          "start": "2026-11-21T01:00:00Z",
+          "end": "2026-11-21T05:59:00Z",
+          "averageDelayMinutes": 51.0,
+          "maximumDelayMinutes": 100,
+          "updatedAt": "2026-11-21T00:09:39Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=6&adv_date=11212026&facId=ORD&title=ATCSCC ADVZY 006 ORD/ZAU 11/21/2026 CDM GROUND DELAY PROGRAM&titleDate=11/21/2026"
+        }
+      ]
+    }
+  ]
 }
