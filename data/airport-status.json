@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-11-22T14:49:36.842298+00:00",
+  "fetchedAt": "2026-11-22T20:59:09.648377+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -41,18 +41,50 @@
   "unmappedAirspacePrograms": 0,
   "airports": [
     {
-      "code": "ATL",
-      "name": "Hartsfield-Jackson Atlanta International",
+      "code": "EWR",
+      "name": "Newark International",
       "events": [
         {
           "type": "Ground delay program",
-          "reason": "other",
-          "start": "2026-11-22T13:24:00Z",
-          "end": "2026-11-22T17:59:00Z",
-          "averageDelayMinutes": 57.0,
-          "maximumDelayMinutes": 111,
-          "updatedAt": "2026-11-22T13:29:52Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=51&adv_date=11222026&facId=ATL&title=ATCSCC ADVZY 051 ATL/ZTL 11/22/2026 CDM GROUND DELAY PROGRAM&titleDate=11/22/2026"
+          "reason": "low ceilings",
+          "start": "2026-11-22T18:00:00Z",
+          "end": "2026-11-23T04:59:00Z",
+          "averageDelayMinutes": 105.0,
+          "maximumDelayMinutes": 355,
+          "updatedAt": "2026-11-22T17:53:19Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=94&adv_date=11222026&facId=EWR&title=ATCSCC ADVZY 094 EWR/ZNY 11/22/2026 CDM GROUND DELAY PROGRAM&titleDate=11/22/2026"
+        }
+      ]
+    },
+    {
+      "code": "LGA",
+      "name": "La Guardia",
+      "events": [
+        {
+          "type": "Ground delay program",
+          "reason": "low visibility",
+          "start": "2026-11-22T20:30:00Z",
+          "end": "2026-11-23T07:59:00Z",
+          "averageDelayMinutes": 199.0,
+          "maximumDelayMinutes": 419,
+          "updatedAt": "2026-11-22T20:33:13Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=113&adv_date=11222026&facId=LGA&title=ATCSCC ADVZY 113 LGA/ZNY 11/22/2026 CDM GROUND DELAY PROGRAM&titleDate=11/22/2026"
+        }
+      ]
+    },
+    {
+      "code": "SFO",
+      "name": "San Francisco International",
+      "events": [
+        {
+          "type": "Ground delay program",
+          "reason": "low ceilings",
+          "start": "2026-11-22T17:19:00Z",
+          "end": "2026-11-22T23:59:00Z",
+          "averageDelayMinutes": 40.0,
+          "maximumDelayMinutes": 116,
+          "updatedAt": "2026-11-22T17:44:39Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=91&adv_date=11222026&facId=SFO&title=ATCSCC ADVZY 091 SFO/ZOA 11/22/2026 CDM GROUND DELAY PROGRAM&titleDate=11/22/2026"
         }
       ]
     }
