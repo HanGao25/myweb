@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-11-23T01:31:34.429461+00:00",
+  "fetchedAt": "2026-11-23T09:40:48.171217+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -39,22 +39,5 @@
   ],
   "coverage": "Active ground stops, ground delay programs, airport-wide closures, and airport-linked airspace flow programs. Excludes routine delays and GA-only notices. Regional AFPs, CTOPs, reroutes, and other advisories are not comprehensively covered.",
   "unmappedAirspacePrograms": 0,
-  "airports": [
-    {
-      "code": "LGA",
-      "name": "La Guardia",
-      "events": [
-        {
-          "type": "Ground delay program",
-          "reason": "low visibility",
-          "start": "2026-11-23T00:00:00Z",
-          "end": "2026-11-23T04:59:00Z",
-          "averageDelayMinutes": 139.0,
-          "maximumDelayMinutes": 361,
-          "updatedAt": "2026-11-22T22:51:46Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=131&adv_date=11222026&facId=LGA&title=ATCSCC ADVZY 131 LGA/ZNY 11/22/2026 CDM GROUND DELAY PROGRAM&titleDate=11/22/2026"
-        }
-      ]
-    }
-  ]
+  "airports": []
 }
