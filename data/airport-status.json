@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-11-23T21:58:40.130563+00:00",
+  "fetchedAt": "2026-11-24T05:52:29.847766+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -39,5 +39,48 @@
   ],
   "coverage": "Active ground stops, ground delay programs, airport-wide closures, and airport-linked airspace flow programs. Excludes routine delays and GA-only notices. Regional AFPs, CTOPs, reroutes, and other advisories are not comprehensively covered.",
   "unmappedAirspacePrograms": 0,
-  "airports": []
+  "airports": [
+    {
+      "code": "LAS",
+      "name": "Harry Reid International",
+      "events": [
+        {
+          "type": "Ground stop",
+          "reason": "STAFFING",
+          "start": "2026-11-24T05:30:00Z",
+          "end": "2026-11-24T06:30:00Z",
+          "averageDelayMinutes": null,
+          "maximumDelayMinutes": null,
+          "updatedAt": "2026-11-24T05:45:44Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=15&adv_date=11242026&facId=LAS&title=ATCSCC ADVZY 015 LAS/ZLA 11/24/2026 CDM GROUND STOP&titleDate=11/24/2026"
+        },
+        {
+          "type": "Ground delay program",
+          "reason": "other",
+          "start": "2026-11-24T05:00:00Z",
+          "end": "2026-11-24T07:59:00Z",
+          "averageDelayMinutes": 35.0,
+          "maximumDelayMinutes": 90,
+          "updatedAt": "2026-11-24T01:43:20Z",
+          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=11&adv_date=11242026&facId=LAS&title=ATCSCC ADVZY 011 LAS/ZLA 11/24/2026 CDM GROUND DELAY PROGRAM&titleDate=11/24/2026"
+        }
+      ]
+    },
+    {
+      "code": "LGA",
+      "name": "La Guardia",
+      "events": [
+        {
+          "type": "Airport closure",
+          "reason": "!LGA 11/413 LGA AD AP CLSD EXC HEL 30MIN \rPPR 718-533-3700 2611240514-2611241100",
+          "start": "2026-11-24T05:14:00Z",
+          "end": "2026-11-24T11:00:00Z",
+          "averageDelayMinutes": null,
+          "maximumDelayMinutes": null,
+          "updatedAt": "2026-11-24T05:17:18Z",
+          "advisoryUrl": null
+        }
+      ]
+    }
+  ]
 }
