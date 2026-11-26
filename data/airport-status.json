@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-11-26T02:45:03.622922+00:00",
+  "fetchedAt": "2026-11-26T12:12:14.164970+00:00",
   "source": "https://nasstatus.faa.gov",
   "sources": {
     "airports": "https://nasstatus.faa.gov/api/airport-events",
@@ -39,22 +39,5 @@
   ],
   "coverage": "Active ground stops, ground delay programs, airport-wide closures, and airport-linked airspace flow programs. Excludes routine delays and GA-only notices. Regional AFPs, CTOPs, reroutes, and other advisories are not comprehensively covered.",
   "unmappedAirspacePrograms": 0,
-  "airports": [
-    {
-      "code": "MIA",
-      "name": "Miami International",
-      "events": [
-        {
-          "type": "Ground stop",
-          "reason": "disabled aircraft on the runway",
-          "start": "2026-11-26T01:16:00Z",
-          "end": "2026-11-26T03:30:00Z",
-          "averageDelayMinutes": null,
-          "maximumDelayMinutes": null,
-          "updatedAt": "2026-11-26T02:10:06Z",
-          "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=22&adv_date=11262026&facId=MIA&title=ATCSCC ADVZY 022 MIA/ZMA 11/26/2026 CDM GROUND STOP&titleDate=11/26/2026"
-        }
-      ]
-    }
-  ]
+  "airports": []
 }
